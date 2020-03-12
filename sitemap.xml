@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://justinyhuang.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://justinyhuang.github.io/series/</loc>
-  </url>
-  
-  <url>
-    <loc>http://justinyhuang.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>http://justinyhuang.github.io/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://justinyhuang.github.io/en/sitemap.xml</loc>
+		
+	   	<lastmod>2020-03-06T09:26:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://justinyhuang.github.io/cn/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

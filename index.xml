@@ -1,14 +1,1682 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Talk Less Think More</title>
     <link>http://justinyhuang.github.io/</link>
     <description>Recent content on Talk Less Think More</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
+    <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 28 Feb 2020 17:15:54 -0700</lastBuildDate>
     
-	<atom:link href="http://justinyhuang.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://justinyhuang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+      <item>
+        <title>Software Engineering v.s Workwooking</title>
+        <link>http://justinyhuang.github.io/posts/software-engineering-vs-workwooking/</link>
+        <pubDate>Fri, 06 Mar 2020 09:26:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 06 Mar 2020 09:26:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/software-engineering-vs-workwooking/</guid>
+        <description>&lt;p&gt;This year I become a 13-year software engineer and a 5-year woodworker (no, the latter is not certified). And now I believe there are reasons why I love writing code and making wood dust: they are so much alike!&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2019 年记</title>
+        <link>http://justinyhuang.github.io/posts/2019-nian-ji/</link>
+        <pubDate>Sat, 04 Jan 2020 08:47:56 -0700</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 04 Jan 2020 08:47:56 -0700</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2019-nian-ji/</guid>
+        <description>&lt;p&gt;2019年最后一个晚上，趴在我自己的床上，用Android版的Notion，写下这篇年记。这已经说明和往年有挺大的不一样了吧。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2018年记</title>
+        <link>http://justinyhuang.github.io/posts/2018nian-ji/</link>
+        <pubDate>Mon, 31 Dec 2018 10:59:55 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 31 Dec 2018 10:59:55 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2018nian-ji/</guid>
+        <description>&lt;p&gt;一年就这样过去了。&lt;/p&gt;
+&lt;p&gt;新年前夜外面有人点烟火放炮仗，早上起来看新闻说州府照例吊巨型土豆跨年，然后还有很多人Google那个土豆是不是真的。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2017  年记</title>
+        <link>http://justinyhuang.github.io/posts/2017-summary/</link>
+        <pubDate>Fri, 29 Dec 2017 23:14:52 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 29 Dec 2017 23:14:52 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2017-summary/</guid>
+        <description>&lt;p&gt;2017年12月底，家里除了我所有人都已经睡着了，客厅里圣诞树的灯还亮着。把冰箱里女儿没喝完的牛奶干完，我想起是时候记录一下即将逝去的这一年了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2016过期年记</title>
+        <link>http://justinyhuang.github.io/posts/2016guo-qi-nian-ji/</link>
+        <pubDate>Sun, 25 Jun 2017 22:32:45 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 25 Jun 2017 22:32:45 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2016guo-qi-nian-ji/</guid>
+        <description>&lt;p&gt;这个时候再来写去年的年记，是有很多晚……&lt;/p&gt;
+&lt;p&gt;基本上已经不记得去年发生了具体的事情。为了年记系列的连续性，却还是要硬生生挤些出来的。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>A Custom Made Bluetooth Mechanical Keyboard</title>
+        <link>http://justinyhuang.github.io/posts/a-custom-made-bluetooth-mechanical-keyboard/</link>
+        <pubDate>Fri, 29 Apr 2016 22:18:49 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 29 Apr 2016 22:18:49 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/a-custom-made-bluetooth-mechanical-keyboard/</guid>
+        <description>   </description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2015</title>
+        <link>http://justinyhuang.github.io/posts/2015/</link>
+        <pubDate>Thu, 31 Dec 2015 11:21:08 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 31 Dec 2015 11:21:08 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2015/</guid>
+        <description>&lt;p&gt;窗外头皮似的雪下了有一阵子了，门前水泥地上的斑斑积雪还只是像牛皮癣病人的皮肤一样，没有一脚踩一个深坑的气势。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>A Journey of Making Customized Keyboard</title>
+        <link>http://justinyhuang.github.io/posts/a-journey-of-making-customized-keyboard/</link>
+        <pubDate>Wed, 11 Nov 2015 21:43:43 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 11 Nov 2015 21:43:43 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/a-journey-of-making-customized-keyboard/</guid>
+        <description>&lt;p&gt;After I switched &lt;a href=&#34;http://justinyhuang.github.io/posts/from-qwerty-to-colemak/&#34;&gt;from QWERTY to Colemak&lt;/a&gt;, getting a keyboard for this new layout becomes something I&amp;rsquo;ve been thinking about more often. At the moment I was using HHKB and a Filco TKL, which are both nice keyboards, but it bothers me that the keyboards stay in QWERTY while I have already moved on.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>From QWERTY to Colemak</title>
+        <link>http://justinyhuang.github.io/posts/from-qwerty-to-colemak/</link>
+        <pubDate>Sat, 05 Sep 2015 23:53:29 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 05 Sep 2015 23:53:29 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/from-qwerty-to-colemak/</guid>
+        <description>&lt;p&gt;Eventually I made the move.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>LinkedIn, the False Land</title>
+        <link>http://justinyhuang.github.io/posts/linkedin-the-false-land/</link>
+        <pubDate>Tue, 07 Jul 2015 22:52:15 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 07 Jul 2015 22:52:15 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/linkedin-the-false-land/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://justinyhuang.github.io/galleries/linkedin_the_false_land.png&#34; alt=&#34;linkedin&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Possibly for anyone you ask what is the best known social network for job and talent hunting, LinkedIn would be the answer. I used to be an active LinkedIn user, not any more. Because LinkedIn has become a False Land, where people lie often.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>拥抱“争吵”</title>
+        <link>http://justinyhuang.github.io/posts/yong-bao-zheng-chao/</link>
+        <pubDate>Sun, 28 Jun 2015 14:11:31 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 28 Jun 2015 14:11:31 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/yong-bao-zheng-chao/</guid>
+        <description>&lt;p&gt;自从&lt;a href=&#34;http://justinyhuang.github.io/posts/2014&#34;&gt;年初&lt;/a&gt;总结了自己最大的缺点后，我就不时在想：如何才能做到善于发现问题呢？&lt;/p&gt;
+&lt;p&gt;用了半年大时间，我想我找到了两个方法：一是不要急着应对；二是去拥抱“争吵”。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Three Software Engineer Levels</title>
+        <link>http://justinyhuang.github.io/posts/three-engineer-levels/</link>
+        <pubDate>Mon, 08 Jun 2015 22:22:47 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 08 Jun 2015 22:22:47 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/three-engineer-levels/</guid>
+        <description>&lt;p&gt;Recently I have been working with a wide range of software engineers on a new project. The experience with various engineers inspires me that there could be at least 3 levels of software engineers, when looking at what they are actually talking to.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>关于人的两种类型</title>
+        <link>http://justinyhuang.github.io/posts/guan-yu-ren-de-liang-chong-lei-xing/</link>
+        <pubDate>Thu, 21 May 2015 15:40:17 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 21 May 2015 15:40:17 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/guan-yu-ren-de-liang-chong-lei-xing/</guid>
+        <description>&lt;p&gt;记得有一种说法：人可以分成两类，一类人通过社交获取能量，另一类人通过独处获取能量。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>女儿诞生</title>
+        <link>http://justinyhuang.github.io/posts/nu-er-dan-sheng/</link>
+        <pubDate>Sun, 17 May 2015 15:48:03 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 17 May 2015 15:48:03 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/nu-er-dan-sheng/</guid>
+        <description>&lt;p&gt;经过274天的准备，我们的女儿选择在2015年的母亲节出生。出世后啼哭了三声她便安静下来，睁开双眼观察这个陌生又熟悉的世界。随后她还是那样安静，趴在妈妈的身上，好奇的看着麻醉药失效后缝合伤口的妈妈痛苦的呻吟。一直到护士给她注射防疫针，她才哇的一声大哭起来：欢迎来到残酷的现实世界。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>日本邻居</title>
+        <link>http://justinyhuang.github.io/posts/ri-ben-lin-ju/</link>
+        <pubDate>Sat, 09 May 2015 16:15:22 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 09 May 2015 16:15:22 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/ri-ben-lin-ju/</guid>
+        <description>&lt;p&gt;小区最近搬来了一家人，爸爸是玻利维亚人，妈妈是日本人，还有一个1岁小女孩，十足日本娃娃相，很是可爱。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Migrate To Nikola</title>
+        <link>http://justinyhuang.github.io/posts/migrate-to-nikola/</link>
+        <pubDate>Tue, 10 Mar 2015 21:29:05 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 10 Mar 2015 21:29:05 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/migrate-to-nikola/</guid>
+        <description>&lt;p&gt;After about one year since I put on the only post in 2014, eventually I write a new one: the summary of the year (so&lt;br /&gt;
+shame for this only one&amp;hellip;)&lt;/p&gt;
+&lt;p&gt;And then I realize Octopress, after upgrading to the latest version, doesn&amp;rsquo;t work for my repo any more&amp;hellip;Because I know&lt;br /&gt;
+nothing about Ruby, this becomes absolutely a heart attack.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2014</title>
+        <link>http://justinyhuang.github.io/posts/2014/</link>
+        <pubDate>Tue, 03 Feb 2015 21:14:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 03 Feb 2015 21:14:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2014/</guid>
+        <description>&lt;p&gt;2014年的总结是在2015年元旦很久后，加班的间隙写的。&lt;/p&gt;
+&lt;p&gt;回头一看事实上这一年什么都没写，这篇算是名副其实的年记了。&lt;/p&gt;
+&lt;p&gt;2013的时候感叹好多变化，2014更是让我应接不暇。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2013</title>
+        <link>http://justinyhuang.github.io/posts/2013/</link>
+        <pubDate>Thu, 16 Jan 2014 14:00:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 16 Jan 2014 14:00:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2013/</guid>
+        <description>&lt;p&gt;过去的一年感觉就像一个月，呼的一下，就没了。&lt;/p&gt;
+&lt;p&gt;去年说最大的事就是肉身翻墙。墙外的第一年则是各种重新开始。结交新的朋友，融入新的生活，开始新的工作，尝试新的事物，开拓新的世界。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>铜婚</title>
+        <link>http://justinyhuang.github.io/posts/tong-hun/</link>
+        <pubDate>Thu, 05 Dec 2013 17:11:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 05 Dec 2013 17:11:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/tong-hun/</guid>
+        <description>&lt;p&gt;有一个词，“不知不觉”，在七年之后形容铜婚纪念日应该算是比较贴切的。&lt;/p&gt;
+&lt;p&gt;至少对我们是这样。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>What to Debug when You Are Debugging</title>
+        <link>http://justinyhuang.github.io/posts/what-to-debug-when-you-are-debugging/</link>
+        <pubDate>Fri, 13 Sep 2013 10:52:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 13 Sep 2013 10:52:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/what-to-debug-when-you-are-debugging/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://justinyhuang.github.io/galleries/what_to_debug_when_you_are_debugging.gif&#34; alt=&#34;debug&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Debugging is probably the first task for most of us in practice: Day 1 when you joined the team, someone senior called you to his desk and gave you a defect description, &amp;ldquo;go and figure out what goes wrong, young boy&amp;rdquo;.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>About Smart Watches</title>
+        <link>http://justinyhuang.github.io/posts/about-smart-watches/</link>
+        <pubDate>Tue, 03 Sep 2013 21:20:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 03 Sep 2013 21:20:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/about-smart-watches/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://justinyhuang.github.io/galleries/about_smartwatch.jpg&#34; alt=&#34;SmartWatches&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Tablets, smart phones, smart watches&amp;hellip;&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Repeat in Vim</title>
+        <link>http://justinyhuang.github.io/posts/repeat-in-vim/</link>
+        <pubDate>Tue, 06 Aug 2013 18:48:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 06 Aug 2013 18:48:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/repeat-in-vim/</guid>
+        <description>&lt;p&gt;There are many ways to repeat something in Vim. Knowing how and when to repeat would greatly save your time with Vim.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Minimal Setup for Remote Access Linux from Windows with X</title>
+        <link>http://justinyhuang.github.io/posts/minimal-setup-for-remote-access-linux-from-windows-with-x/</link>
+        <pubDate>Thu, 21 Mar 2013 18:18:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 21 Mar 2013 18:18:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/minimal-setup-for-remote-access-linux-from-windows-with-x/</guid>
+        <description>&lt;p&gt;When accessing a Linux machine remotely in Windows, many might use VNC or similar remote desktop tools. Some might simply use Putty. Both are not quite satisfying: VNC and the like ask for too much network bandwidth when transferring graphical data, while Putty doesn&amp;rsquo;t support X and limits your use to only in the console.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>2012</title>
+        <link>http://justinyhuang.github.io/posts/2012/</link>
+        <pubDate>Sun, 06 Jan 2013 22:25:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 06 Jan 2013 22:25:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2012/</guid>
+        <description>&lt;p&gt;在开始总结过去的一年前，手悬在键盘上估摸着有5分钟的时间：很多事不知从哪个开始——是否说明去年过得很混乱？还是非常充实？&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>铁婚•铁与锈</title>
+        <link>http://justinyhuang.github.io/posts/tie-hun-tie-yu-xiu/</link>
+        <pubDate>Tue, 04 Dec 2012 10:50:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 04 Dec 2012 10:50:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/tie-hun-tie-yu-xiu/</guid>
+        <description>&lt;p&gt;与婚后第六年比起来，过去的&lt;a href=&#34;http://justinyhuang.github.io/posts/e7bab8e5a99a&#34;&gt;纸&lt;/a&gt; &lt;a href=&#34;http://justinyhuang.github.io/posts/e5b883e5a99a&#34;&gt;布&lt;/a&gt; &lt;a href=&#34;http://justinyhuang.github.io/posts/e79aaee5a99a-e68891e79a84e88081e5a6bb&#34;&gt;皮&lt;/a&gt; &lt;a href=&#34;http://justinyhuang.github.io/posts/e4b89de5a99a-e4b8a4e4b8aae4babae79a84e7bb93e5a99ae98592&#34;&gt;丝&lt;/a&gt; &lt;a href=&#34;http://justinyhuang.github.io/posts/e69ca8e5a99ae280a2e4ba94e5b9b4&#34;&gt;木&lt;/a&gt;就像是小孩子过家家。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>秋游日本归来</title>
+        <link>http://justinyhuang.github.io/posts/qiu-you-ri-ben-gui-lai/</link>
+        <pubDate>Sun, 02 Dec 2012 11:52:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 02 Dec 2012 11:52:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/qiu-you-ri-ben-gui-lai/</guid>
+        <description>&lt;p&gt;十一月，我们去了一趟日本玩。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>开关</title>
+        <link>http://justinyhuang.github.io/posts/kai-guan/</link>
+        <pubDate>Sat, 27 Oct 2012 12:08:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 27 Oct 2012 12:08:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/kai-guan/</guid>
+        <description>&lt;p&gt;晚上吃完饭，我在沙发上抱着电脑看视频，老婆背对着我上网也玩得起劲。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Hello Octopress</title>
+        <link>http://justinyhuang.github.io/posts/hello-octopress/</link>
+        <pubDate>Sat, 06 Oct 2012 23:56:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 06 Oct 2012 23:56:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/hello-octopress/</guid>
+        <description>&lt;p&gt;This weekend I decided to migrate this blog from Wordpress to Octopress, because of many reasons searchable in google, and because with Octopress now I can write posts anywhere with Vim and Git. To help those who are now exploring Octopress (and myself sometime later), I&amp;rsquo;ve made some notes on the obstacles that I&amp;rsquo;ve seen as well as the solutions:&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>God Might Be a Supercomputer</title>
+        <link>http://justinyhuang.github.io/posts/god-might-be-a-supercomputer/</link>
+        <pubDate>Wed, 26 Sep 2012 13:27:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 26 Sep 2012 13:27:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/god-might-be-a-supercomputer/</guid>
+        <description>&lt;p&gt;This will be a very unique article in the blog: it tries to depict my imagination of God that comes to me when I was coding.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>The Not-So-Easy C</title>
+        <link>http://justinyhuang.github.io/posts/the-not-so-easy-c/</link>
+        <pubDate>Sun, 05 Aug 2012 13:49:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 05 Aug 2012 13:49:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/the-not-so-easy-c/</guid>
+        <description>&lt;p&gt;Whenever I get an embedded software engineer&amp;rsquo;s resume, one thing I can guarantee is there will be definitely a line says:&lt;/p&gt;
+&lt;p&gt;Excellent in C/C++ (or something similar)&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>外婆</title>
+        <link>http://justinyhuang.github.io/posts/e5a496e5a986/</link>
+        <pubDate>Tue, 15 May 2012 08:24:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 15 May 2012 08:24:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e5a496e5a986/</guid>
+        <description>&lt;p&gt;对外婆的记忆大多是在放暑假的时候。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Twitter Enabled Printer</title>
+        <link>http://justinyhuang.github.io/posts/twitter-enabled-printer/</link>
+        <pubDate>Tue, 13 Mar 2012 01:14:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 13 Mar 2012 01:14:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/twitter-enabled-printer/</guid>
+        <description>&lt;p&gt;Printers are old ugly monsters from the last century.&lt;br /&gt;
+Twitter is about 6 years old and might shop for school pretty soon.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>11年记</title>
+        <link>http://justinyhuang.github.io/posts/2011-nian-ji/</link>
+        <pubDate>Wed, 04 Jan 2012 22:39:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 04 Jan 2012 22:39:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2011-nian-ji/</guid>
+        <description>&lt;p&gt;面对即将来临的而立之年，过去的2011很是紧凑忙碌。日后回忆自己的29岁，想必一定要有意思得多：总结写到现在，唯独这一年，没有遗憾。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Keep Your Fingers Away from &#34;ESC&#34;</title>
+        <link>http://justinyhuang.github.io/posts/keep-your-fingers-away-from-esc/</link>
+        <pubDate>Sun, 11 Dec 2011 02:05:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 11 Dec 2011 02:05:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/keep-your-fingers-away-from-esc/</guid>
+        <description>&lt;p&gt;When editing in Vim the keys that I hate most are &amp;ldquo;ESC&amp;rdquo; (Esc, Shift and CapsLock). They interrupt my thoughts when I have to find the keys far, far away from the comfort area of my fingers, not to mention the mistypes like pressing tab when I mean CapsLock.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>木婚•五年</title>
+        <link>http://justinyhuang.github.io/posts/e69ca8e5a99ae280a2e4ba94e5b9b4/</link>
+        <pubDate>Tue, 06 Dec 2011 20:28:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 06 Dec 2011 20:28:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e69ca8e5a99ae280a2e4ba94e5b9b4/</guid>
+        <description>&lt;p&gt;一、二、三、四、五。相识七年，婚后五年。&lt;br /&gt;
+这一年我们经历了最激烈的争吵，这一年我们感受到更暖人的温情。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>An Improved Version of the Counting Sort Implementation</title>
+        <link>http://justinyhuang.github.io/posts/an-improved-version-of-counting-sort-implementation/</link>
+        <pubDate>Sat, 26 Nov 2011 02:12:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 26 Nov 2011 02:12:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/an-improved-version-of-counting-sort-implementation/</guid>
+        <description></description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>程序员老二</title>
+        <link>http://justinyhuang.github.io/posts/e7a88be5ba8fe59198e88081e4ba8c/</link>
+        <pubDate>Sat, 30 Jul 2011 10:23:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 30 Jul 2011 10:23:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e7a88be5ba8fe59198e88081e4ba8c/</guid>
+        <description>&lt;p&gt;老二在他前家很算挺大的公司写了10年程序，最后离开，到了一个学院教书，讲嵌入式设计。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Encryption and Decryption - Note of Fundamental Number Theory III</title>
+        <link>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-iii/</link>
+        <pubDate>Sun, 26 Jun 2011 00:38:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 26 Jun 2011 00:38:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-iii/</guid>
+        <description>&lt;p&gt;In previous notes we&#39;ve seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in setRSAKeys(), and processMessage() are implemented.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Encryption and Decryption - Note of Fundamental Number Theory II</title>
+        <link>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-ii/</link>
+        <pubDate>Tue, 07 Jun 2011 07:03:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 07 Jun 2011 07:03:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-ii/</guid>
+        <description>&lt;p&gt;The first thing we need to do in the main function is to prepare two groups of keys.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Encryption and Decryption - Note of Fundamental Number Theory I</title>
+        <link>http://justinyhuang.github.io/posts/encryption-and-decryption/</link>
+        <pubDate>Mon, 06 Jun 2011 08:51:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 06 Jun 2011 08:51:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/encryption-and-decryption/</guid>
+        <description>&lt;p&gt;Reading the number theory has taken me a while.&lt;br /&gt;
+And I guess, possibly, the most useful application of number theories is information encryption/decryption and digital signatures.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二洗碗</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce6b497e7a297/</link>
+        <pubDate>Mon, 09 May 2011 23:30:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 09 May 2011 23:30:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce6b497e7a297/</guid>
+        <description>&lt;p&gt;老二吃饭后总是第一时间洗干净碗筷。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>一零年记</title>
+        <link>http://justinyhuang.github.io/posts/e4b880e99bb6e5b9b4e8aeb0/</link>
+        <pubDate>Tue, 11 Jan 2011 21:40:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 11 Jan 2011 21:40:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b880e99bb6e5b9b4e8aeb0/</guid>
+        <description>&lt;p&gt;自第一次给自己写&lt;a href=&#34;http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4&#34;&gt;年记&lt;/a&gt;已经是第七年，中国人有说法“七”是一个带来转变的数字。好像是这样的。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二的诗</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e8af97/</link>
+        <pubDate>Mon, 03 Jan 2011 15:11:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 03 Jan 2011 15:11:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e8af97/</guid>
+        <description>&lt;p&gt;老二是我的学长，以往暑假的时候都会借他用过的书来预习下一年的课文。&lt;br /&gt;
+记得在过去校园风行写诗的时候，曾在老二的课本上看见过：&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>丝婚-两个人的结婚酒</title>
+        <link>http://justinyhuang.github.io/posts/e4b89de5a99a-e4b8a4e4b8aae4babae79a84e7bb93e5a99ae98592/</link>
+        <pubDate>Sun, 05 Dec 2010 16:47:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 05 Dec 2010 16:47:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b89de5a99a-e4b8a4e4b8aae4babae79a84e7bb93e5a99ae98592/</guid>
+        <description>戴上戒指后的第四年，左手无名指已经长出一圈浅浅滑滑的凹痕，总会习惯性地不时用拇指去摸它。 每次发现戒指不在了，马上会去找到并戴起来。因为，你的</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二与作业</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ee4bd9ce4b89a/</link>
+        <pubDate>Mon, 30 Aug 2010 23:25:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 30 Aug 2010 23:25:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ee4bd9ce4b89a/</guid>
+        <description>&lt;p&gt;老二说话言简意赅，有时候很讨厌，但大多数时候却是很讨人喜欢。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>“重婚”赌城</title>
+        <link>http://justinyhuang.github.io/posts/e2809ce9878de5a99ae2809de8b58ce59f8e/</link>
+        <pubDate>Sun, 29 Aug 2010 00:58:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 29 Aug 2010 00:58:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e2809ce9878de5a99ae2809de8b58ce59f8e/</guid>
+        <description>&lt;p&gt;今年很重要的一个指标就是“重婚”：三年之痒后我们打算再结一次重燃爱火。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Note on a Few Defects</title>
+        <link>http://justinyhuang.github.io/posts/note-on-a-fe-defects/</link>
+        <pubDate>Sun, 08 Aug 2010 04:23:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 08 Aug 2010 04:23:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/note-on-a-fe-defects/</guid>
+        <description>&lt;p&gt;These days I have been working on some coding stuff, and was stuck in some stupid, yet interesting defects.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>去了三番</title>
+        <link>http://justinyhuang.github.io/posts/e58ebbe4ba86e4b889e795aa/</link>
+        <pubDate>Wed, 04 Aug 2010 12:30:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 04 Aug 2010 12:30:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e58ebbe4ba86e4b889e795aa/</guid>
+        <description>&lt;p&gt;一个月前趁着独立日的档期，混到三番乱游了几天。&lt;/p&gt;
+&lt;p&gt;第一感觉就是乱。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>去了拱门国家公园</title>
+        <link>http://justinyhuang.github.io/posts/e58ebbe4ba86e68bb1e997a8e59bbde5aeb6e585ace59bad/</link>
+        <pubDate>Fri, 11 Jun 2010 13:28:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 11 Jun 2010 13:28:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e58ebbe4ba86e68bb1e997a8e59bbde5aeb6e585ace59bad/</guid>
+        <description>&lt;p&gt;趁着Momenrial Day有一天假期，外加周末两天，我们蹭了同事的车一路往南杀到了犹他州的拱门国家公园(Arches National Park)。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Asymptotic Notation</title>
+        <link>http://justinyhuang.github.io/posts/asymptotic_notation/</link>
+        <pubDate>Sun, 23 May 2010 21:39:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 23 May 2010 21:39:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/asymptotic_notation/</guid>
+        <description>&lt;p&gt;One of my reading projects is to work on the &lt;a href=&#34;http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;amp;tid=8569&#34;&gt;Introduction to Algorithm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After a few chapters I realized that I might have already forgot all little pieces of mathematics learned in college.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>看了《叶问2》</title>
+        <link>http://justinyhuang.github.io/posts/e79c8be4ba86e58fb6e997ae2/</link>
+        <pubDate>Wed, 05 May 2010 18:49:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 05 May 2010 18:49:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e79c8be4ba86e58fb6e997ae2/</guid>
+        <description>&lt;p&gt;五一最后一天去看了《叶问2》。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二陪逛街经验谈</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce999aae9809be8a197e7bb8fe9aa8ce8b088/</link>
+        <pubDate>Sat, 24 Apr 2010 10:21:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 24 Apr 2010 10:21:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce999aae9809be8a197e7bb8fe9aa8ce8b088/</guid>
+        <description>&lt;p&gt;周末出门，偶尔会碰到老二的老婆出街溜老公。&lt;br /&gt;
+老二倒似很享受出来放风逛街的过程。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>史上最强的臭豆腐广告语</title>
+        <link>http://justinyhuang.github.io/posts/e58fb2e4b88ae69c80e5bcbae79a84e887ade8b186e88590e5b9bfe5918ae8afad/</link>
+        <pubDate>Sat, 10 Apr 2010 14:49:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 10 Apr 2010 14:49:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e58fb2e4b88ae69c80e5bcbae79a84e887ade8b186e88590e5b9bfe5918ae8afad/</guid>
+        <description>&lt;p&gt;@中国上海张江地铁站&lt;/p&gt;
+&lt;p&gt;臭豆腐摊&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>09总结</title>
+        <link>http://justinyhuang.github.io/posts/09e680bbe7bb93/</link>
+        <pubDate>Mon, 11 Jan 2010 23:04:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 11 Jan 2010 23:04:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/09e680bbe7bb93/</guid>
+        <description>&lt;p&gt;那日和朋友聊到最近的改变，他说，好好加油吧，我就等着看你的年度总结了。&lt;/p&gt;
+&lt;p&gt;有点吓到我：原来还有人预订总结的。好吧，过了09就总。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二上厕所</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ae58e95e68980/</link>
+        <pubDate>Tue, 29 Dec 2009 16:48:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 29 Dec 2009 16:48:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ae58e95e68980/</guid>
+        <description>&lt;p&gt;老二上厕所。&lt;/p&gt;
+&lt;p&gt;推开门：靠……前面的家伙没有冲水！&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>一些零碎的记录</title>
+        <link>http://justinyhuang.github.io/posts/e4b880e4ba9be99bb6e7a28ee79a84e8aeb0e5bd95/</link>
+        <pubDate>Tue, 29 Dec 2009 16:36:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 29 Dec 2009 16:36:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b880e4ba9be99bb6e7a28ee79a84e8aeb0e5bd95/</guid>
+        <description></description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>从“如何成为一名程序员”看到的</title>
+        <link>http://justinyhuang.github.io/posts/e4bb8ee2809ce5a682e4bd95e68890e4b8bae4b880e5908de7a88be5ba8fe59198e2809de79c8be588b0e79a84/</link>
+        <pubDate>Wed, 16 Dec 2009 22:01:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 16 Dec 2009 22:01:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4bb8ee2809ce5a682e4bd95e68890e4b8bae4b880e5908de7a88be5ba8fe59198e2809de79c8be588b0e79a84/</guid>
+        <description></description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>皮婚 - 我的老妻</title>
+        <link>http://justinyhuang.github.io/posts/e79aaee5a99a-e68891e79a84e88081e5a6bb/</link>
+        <pubDate>Sat, 12 Dec 2009 16:01:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 12 Dec 2009 16:01:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e79aaee5a99a-e68891e79a84e88081e5a6bb/</guid>
+        <description>&lt;p&gt;“三”对中国人来说是个很重要的数字，三年纪念日也是我们婚姻生活的一个里程碑。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二说成语-人无远虑必有近忧</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce8afb4e68890e8afad-e4babae697a0e8bf9ce89991e5bf85e69c89e8bf91e5bfa7/</link>
+        <pubDate>Wed, 16 Sep 2009 22:18:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 16 Sep 2009 22:18:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce8afb4e68890e8afad-e4babae697a0e8bf9ce89991e5bf85e69c89e8bf91e5bfa7/</guid>
+        <description>&lt;p&gt;人无远虑，必有近忧。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二的时间观</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e697b6e997b4e8a782/</link>
+        <pubDate>Sat, 12 Sep 2009 18:08:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 12 Sep 2009 18:08:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e697b6e997b4e8a782/</guid>
+        <description>&lt;p&gt;为什么年轻时候度日如年，而现今感觉刚过了一个礼拜，年关又到了？&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>简单的悼念</title>
+        <link>http://justinyhuang.github.io/posts/e7ae80e58d95e79a84e682bce5bfb5/</link>
+        <pubDate>Mon, 27 Jul 2009 22:34:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 27 Jul 2009 22:34:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e7ae80e58d95e79a84e682bce5bfb5/</guid>
+        <description></description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>生命的三维</title>
+        <link>http://justinyhuang.github.io/posts/e7949fe591bde79a84e4b889e7bbb4/</link>
+        <pubDate>Sat, 02 May 2009 09:00:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 02 May 2009 09:00:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e7949fe591bde79a84e4b889e7bbb4/</guid>
+        <description>&lt;p&gt;五一起了个早，世界很清静。面对镜子刷牙时想：每个人的生命应该是个长方体吧。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二赏花</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce8b58fe88ab1/</link>
+        <pubDate>Sat, 04 Apr 2009 11:55:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 04 Apr 2009 11:55:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce8b58fe88ab1/</guid>
+        <description>&lt;p&gt;春天又来了。&lt;/p&gt;
+&lt;p&gt;窗角常春藤正绿，路边樱花正粉，还有到处放肆乱开的未名花正红正黄。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>新工作月末小记</title>
+        <link>http://justinyhuang.github.io/posts/e696b0e5b7a5e4bd9ce69c88e69cabe5b08fe8aeb0/</link>
+        <pubDate>Sat, 28 Feb 2009 23:09:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 28 Feb 2009 23:09:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e696b0e5b7a5e4bd9ce69c88e69cabe5b08fe8aeb0/</guid>
+        <description>&lt;p&gt;按&lt;a href=&#34;http://justinyhuang.github.io/posts/e4b88de68a98e885bee58583e5b9b4e9a284e5918a&#34;&gt;不折腾元年预告&lt;/a&gt;，2月进入了新的公司工作。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>也是关于爱情</title>
+        <link>http://justinyhuang.github.io/posts/e4b99fe698afe585b3e4ba8ee788b1e68385/</link>
+        <pubDate>Mon, 09 Feb 2009 22:30:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 09 Feb 2009 22:30:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b99fe698afe585b3e4ba8ee788b1e68385/</guid>
+        <description>&lt;p&gt;读了朋友关于爱情的“随记瞬间”，不是很懂。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Farewell HP</title>
+        <link>http://justinyhuang.github.io/posts/farewell-hp/</link>
+        <pubDate>Sun, 08 Feb 2009 10:35:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 08 Feb 2009 10:35:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/farewell-hp/</guid>
+        <description>&lt;p&gt;In the past two months when I read a farewell letter, I felt sad because a friend left us.&lt;br /&gt;
+Now I am writing this mail and I know, today it turns to me.&lt;br /&gt;
+ &lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>不折腾元年预告</title>
+        <link>http://justinyhuang.github.io/posts/e4b88de68a98e885bee58583e5b9b4e9a284e5918a/</link>
+        <pubDate>Wed, 28 Jan 2009 17:46:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 28 Jan 2009 17:46:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b88de68a98e885bee58583e5b9b4e9a284e5918a/</guid>
+        <description>&lt;p&gt;1月 春节。百年难遇的14个节假日&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>软柿子好捏</title>
+        <link>http://justinyhuang.github.io/posts/e8bdafe69fbfe5ad90e5a5bde68d8f/</link>
+        <pubDate>Tue, 13 Jan 2009 15:40:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 13 Jan 2009 15:40:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e8bdafe69fbfe5ad90e5a5bde68d8f/</guid>
+        <description>&lt;p&gt;每天都在地铁上偷窥美眉手中的时代报，今天看到一篇《上海市人大代表薄海豹提请地方立法禁止地铁行为艺术》。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>08总结</title>
+        <link>http://justinyhuang.github.io/posts/08e680bbe7bb93/</link>
+        <pubDate>Thu, 01 Jan 2009 22:58:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 01 Jan 2009 22:58:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/08e680bbe7bb93/</guid>
+        <description>&lt;p&gt;新年第一天，饶有兴致地看罢&lt;a href=&#34;http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4&#34;&gt;05&lt;/a&gt;、&lt;a href=&#34;http://justinyhuang.github.io/posts/06e680bbe7bb93&#34;&gt;06&lt;/a&gt;、&lt;a href=&#34;http://justinyhuang.github.io/posts/07e5b9b4e680bbe7bb93&#34;&gt;07&lt;/a&gt;年的总结。趁热打铁，赶紧的赶紧的把去年的所作所为记录一下。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>布婚</title>
+        <link>http://justinyhuang.github.io/posts/e5b883e5a99a/</link>
+        <pubDate>Thu, 01 Jan 2009 11:30:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 01 Jan 2009 11:30:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e5b883e5a99a/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://justinyhuang.github.io/posts/e7bab8e5a99a&#34;&gt;纸婚&lt;/a&gt;刚过去一年，而看似遥远的布婚纪念日却也转眼间变成一个月以前的事了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>杂想</title>
+        <link>http://justinyhuang.github.io/posts/e69d82e683b3/</link>
+        <pubDate>Sun, 23 Mar 2008 00:02:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 23 Mar 2008 00:02:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e69d82e683b3/</guid>
+        <description>&lt;p&gt;宁向冠希学英文 莫谈国事&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>07年总结</title>
+        <link>http://justinyhuang.github.io/posts/07e5b9b4e680bbe7bb93/</link>
+        <pubDate>Fri, 07 Mar 2008 23:30:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 07 Mar 2008 23:30:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/07e5b9b4e680bbe7bb93/</guid>
+        <description>&lt;p&gt;05年底，在屯特Macandra小屋里隔着玻璃和薄雪看烟花，打开小音箱听TEARS OVER&lt;br /&gt;
+SHETLAND，整个晚上慢慢回顾，静静敲下那年的&lt;a href=&#34;http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4&#34;&gt;总结&lt;/a&gt;。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>纸婚</title>
+        <link>http://justinyhuang.github.io/posts/e7bab8e5a99a/</link>
+        <pubDate>Sat, 12 Jan 2008 22:21:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 12 Jan 2008 22:21:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e7bab8e5a99a/</guid>
+        <description>&lt;p&gt;写给2007年12月4日&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>新世纪啥最贵</title>
+        <link>http://justinyhuang.github.io/posts/e696b0e4b896e7baaae595a5e69c80e8b4b5/</link>
+        <pubDate>Sat, 20 Oct 2007 22:02:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 20 Oct 2007 22:02:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e696b0e4b896e7baaae595a5e69c80e8b4b5/</guid>
+        <description>&lt;p&gt;二十一世纪，啥最贵？人才已经不贵了，满街的人才不都找不到工作吗，满公司的人才不都像狗一样奔命吗；房子车子也不算贵了，猪肉青菜方便面都通通升值了，那人家一平卖个两三万也不过分了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>纪念日</title>
+        <link>http://justinyhuang.github.io/posts/e7baaae5bfb5e697a5/</link>
+        <pubDate>Mon, 27 Aug 2007 22:43:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 27 Aug 2007 22:43:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e7baaae5bfb5e697a5/</guid>
+        <description>&lt;p&gt;我们39个月相识纪念日刚过去，今天即是私自订婚25个月纪念日，随后9个月结婚纪念日也要到来。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>都说</title>
+        <link>http://justinyhuang.github.io/posts/e983bde8afb4/</link>
+        <pubDate>Sun, 05 Aug 2007 22:56:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 05 Aug 2007 22:56:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e983bde8afb4/</guid>
+        <description>都说天网恢恢疏而不漏。 其实漏网之鱼总是有的，只是没有一条会傻到跳出来大喊“嘿，你瞧我这不就漏啦”。 都说纸包不住火。 其实包住火的纸还是有的，只</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>没有题目</title>
+        <link>http://justinyhuang.github.io/posts/e6b2a1e69c89e9a298e79bae/</link>
+        <pubDate>Wed, 18 Apr 2007 11:26:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 18 Apr 2007 11:26:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e6b2a1e69c89e9a298e79bae/</guid>
+        <description>&lt;p&gt;在一些时候我应该很笨很笨，笨且固执。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>人生如戏</title>
+        <link>http://justinyhuang.github.io/posts/e4babae7949fe5a682e6888f/</link>
+        <pubDate>Sat, 10 Mar 2007 07:19:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 10 Mar 2007 07:19:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4babae7949fe5a682e6888f/</guid>
+        <description>&lt;p&gt;那天看到创创哥哥的签名：人生不过是死前的游戏，好好享受吧。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>06总结</title>
+        <link>http://justinyhuang.github.io/posts/06e680bbe7bb93/</link>
+        <pubDate>Sat, 06 Jan 2007 12:47:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 06 Jan 2007 12:47:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/06e680bbe7bb93/</guid>
+        <description>&lt;p&gt;2006年悄悄地结束，就在两分钟前洗澡的时候才知道07已经开始。照例，年度总结。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>开始吧</title>
+        <link>http://justinyhuang.github.io/posts/e5bc80e5a78be590a7/</link>
+        <pubDate>Sun, 10 Dec 2006 11:13:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 10 Dec 2006 11:13:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e5bc80e5a78be590a7/</guid>
+        <description>&lt;p&gt;     睡觉睡到自然醒取钱取到手抽筋的生活，下周终于可以结束。取而代之的是打工者的身份开始日复一日的简单且劳累的24小时。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>睡醒了，还没死</title>
+        <link>http://justinyhuang.github.io/posts/e79da1e98692e4ba86efbc8ce8bf98e6b2a1e6adbb/</link>
+        <pubDate>Tue, 31 Oct 2006 18:05:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 31 Oct 2006 18:05:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e79da1e98692e4ba86efbc8ce8bf98e6b2a1e6adbb/</guid>
+        <description>&lt;p&gt;醒来发现，还没死。于是起床，于是洗漱，于是买菜，于是继续找工作。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>回家</title>
+        <link>http://justinyhuang.github.io/posts/e59b9ee5aeb6/</link>
+        <pubDate>Sat, 05 Aug 2006 10:16:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 05 Aug 2006 10:16:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e59b9ee5aeb6/</guid>
+        <description>&lt;p&gt;一个半小时：哥本哈根&lt;/p&gt;
+&lt;p&gt;十一个半小时：上海&lt;/p&gt;
+&lt;p&gt;三个小时：海口&lt;/p&gt;
+&lt;p&gt;回家了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>毕业了……</title>
+        <link>http://justinyhuang.github.io/posts/e6af95e4b89ae4ba86e280a6e280a6/</link>
+        <pubDate>Thu, 06 Jul 2006 00:42:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Thu, 06 Jul 2006 00:42:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e6af95e4b89ae4ba86e280a6e280a6/</guid>
+        <description>&lt;p&gt;七月四日，美国独立了，我毕业了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>老二想不通的事</title>
+        <link>http://justinyhuang.github.io/posts/e88081e4ba8ce683b3e4b88de9809ae79a84e4ba8b/</link>
+        <pubDate>Wed, 03 May 2006 14:17:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Wed, 03 May 2006 14:17:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e88081e4ba8ce683b3e4b88de9809ae79a84e4ba8b/</guid>
+        <description>&lt;p&gt;老二三十好几，为人忠厚。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>一些事</title>
+        <link>http://justinyhuang.github.io/posts/e4b880e4ba9be4ba8b/</link>
+        <pubDate>Sat, 25 Mar 2006 21:08:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 25 Mar 2006 21:08:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e4b880e4ba9be4ba8b/</guid>
+        <description>&lt;p&gt;人不是随着时间的推移，而是由经历的堆积，而慢慢长大的。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>虚伪的灵魂</title>
+        <link>http://justinyhuang.github.io/posts/e8999ae4bcaae79a84e781b5e9ad82/</link>
+        <pubDate>Fri, 24 Mar 2006 00:41:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Fri, 24 Mar 2006 00:41:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e8999ae4bcaae79a84e781b5e9ad82/</guid>
+        <description>&lt;p&gt;两个正在等待重生的灵魂偶遇。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>忽然间很忙……</title>
+        <link>http://justinyhuang.github.io/posts/e5bfbde784b6e997b4e5be88e5bf99e280a6e280a6/</link>
+        <pubDate>Sat, 18 Mar 2006 16:57:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 18 Mar 2006 16:57:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e5bfbde784b6e997b4e5be88e5bf99e280a6e280a6/</guid>
+        <description>&lt;p&gt;忽然间很忙起来。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>寂寞</title>
+        <link>http://justinyhuang.github.io/posts/e5af82e5af9e/</link>
+        <pubDate>Sun, 05 Feb 2006 05:37:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 05 Feb 2006 05:37:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e5af82e5af9e/</guid>
+        <description></description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>又是一年</title>
+        <link>http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4/</link>
+        <pubDate>Sun, 01 Jan 2006 01:37:00 +0000</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 01 Jan 2006 01:37:00 +0000</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4/</guid>
+        <description>&lt;p&gt;一个人在地球另一边看月亮已经一年有余，再次呆坐在小屋里望着窗外欢快的烟火，感叹生命不过如此。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

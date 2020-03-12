@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://justinyhuang.github.io/cn/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://justinyhuang.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://justinyhuang.github.io/cn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://justinyhuang.github.io/cn/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://justinyhuang.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://justinyhuang.github.io/cn/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://justinyhuang.github.io/cn/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://justinyhuang.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://justinyhuang.github.io/cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://justinyhuang.github.io/cn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://justinyhuang.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://justinyhuang.github.io/cn/"
+                />
+  </url>
+  
+</urlset>
