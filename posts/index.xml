@@ -14,13 +14,50 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 06 Mar 2020 09:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2020 17:40:01 -0600</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Amba for Dummies : Preface</title>
+        <link>http://justinyhuang.github.io/posts/amba-for-dummies-preface/</link>
+        <pubDate>Tue, 17 Mar 2020 17:40:01 -0600</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 17 Mar 2020 17:40:01 -0600</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/amba-for-dummies-preface/</guid>
+        <description>&lt;p&gt;I don&amp;rsquo;t know about you, but I am, at least at the time of writing, a so-called firmware engineer who knows a little bit of C/C++/Python/Rust, who struggles with keeping some vague and superficial, out-of-date and sometimes incorrect understanding about the hardware platform that runs my code.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Amba for Dummies : Intro</title>
+        <link>http://justinyhuang.github.io/posts/amba-for-dummies-intro/</link>
+        <pubDate>Mon, 16 Mar 2020 09:50:51 -0600</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Mon, 16 Mar 2020 09:50:51 -0600</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/amba-for-dummies-intro/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://justinyhuang.github.io/galleries/amba_for_dummies.jpg&#34; alt=&#34;cover&#34; /&gt;&lt;br /&gt;
+This is a new personal project of mine. I build this dummy book with my personal notes when learning AMBA.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Software Engineering v.s Workwooking</title>
@@ -821,7 +858,7 @@ And I guess, possibly, the most useful application of number theories is informa
         <author>justin.y.huang@live.com (Justin)</author>
         <atom:modified>Sun, 05 Dec 2010 16:47:00 +0000</atom:modified>
         <guid>http://justinyhuang.github.io/posts/e4b89de5a99a-e4b8a4e4b8aae4babae79a84e7bb93e5a99ae98592/</guid>
-        <description>戴上戒指后的第四年，左手无名指已经长出一圈浅浅滑滑的凹痕，总会习惯性地不时用拇指去摸它。 每次发现戒指不在了，马上会去找到并戴起来。因为，你的</description>
+        <description>戴上戒指后的第四年，左手无名指已经长出一圈浅浅滑滑的凹痕，总会习惯性地不时用拇指去摸它。 每次发现戒指不在了，马上会去找到并戴起来。因为，你的手上戴着另外一只。 第四年对彼此的了解，比两年前杀人游戏的默契</description>
         
         <dc:creator>Justin</dc:creator>
         
@@ -1407,7 +1444,7 @@ SHETLAND，整个晚上慢慢回顾，静静敲下那年的&lt;a href=&#34;http:
         <author>justin.y.huang@live.com (Justin)</author>
         <atom:modified>Sun, 05 Aug 2007 22:56:00 +0000</atom:modified>
         <guid>http://justinyhuang.github.io/posts/e983bde8afb4/</guid>
-        <description>都说天网恢恢疏而不漏。 其实漏网之鱼总是有的，只是没有一条会傻到跳出来大喊“嘿，你瞧我这不就漏啦”。 都说纸包不住火。 其实包住火的纸还是有的，只</description>
+        <description>都说天网恢恢疏而不漏。 其实漏网之鱼总是有的，只是没有一条会傻到跳出来大喊“嘿，你瞧我这不就漏啦”。 都说纸包不住火。 其实包住火的纸还是有的，只是太严实了，从来没人知道里头有啥。 都说成功者都是偏执狂。 其实</description>
         
         <dc:creator>Justin</dc:creator>
         
