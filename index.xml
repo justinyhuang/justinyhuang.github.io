@@ -14,7 +14,7 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 28 Feb 2020 17:15:54 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 08:59:23 -0600</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,28 @@
         
       
 
+      
+      <item>
+        <title>Amba for Dummies Amba 3 Deep Dive APB</title>
+        <link>http://justinyhuang.github.io/posts/amba-for-dummies-amba-3-deep-dive-apb/</link>
+        <pubDate>Tue, 02 Jun 2020 08:59:23 -0600</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 02 Jun 2020 08:59:23 -0600</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/amba-for-dummies-amba-3-deep-dive-apb/</guid>
+        <description>Well I am not sure how deep this Deep Dive is, but I will ensure you for a dummy book this chapter will be deep enough.
+Timing Diagram Legends
+It is very likely the next material you will read after this one is an AMBA spec, where you will see some timing diagram conventions like below
+and it will be helpful to understand now what they actually mean.
+Well clock is straightforward and you don&amp;rsquo;t need to be a hardware guy to understand what it means: a high and a low means one clock cycle. The rising/falling edge might trigger some operations in the hardware that driven by this clock (a.</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Amba for Dummies: Top Level View of Amba</title>

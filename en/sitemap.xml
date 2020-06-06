@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://justinyhuang.github.io/posts/amba-for-dummies-top-level-view-of-amba/</loc>
-    <lastmod>2020-05-07T08:01:19-06:00</lastmod>
+    <loc>http://justinyhuang.github.io/posts/amba-for-dummies-amba-3-deep-dive-apb/</loc>
+    <lastmod>2020-06-02T08:59:23-06:00</lastmod>
   </url>
   
   <url>
     <loc>http://justinyhuang.github.io/posts/</loc>
+    <lastmod>2020-06-02T08:59:23-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://justinyhuang.github.io/</loc>
+    <lastmod>2020-06-02T08:59:23-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://justinyhuang.github.io/cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://justinyhuang.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://justinyhuang.github.io/posts/amba-for-dummies-top-level-view-of-amba/</loc>
     <lastmod>2020-05-07T08:01:19-06:00</lastmod>
   </url>
   
@@ -30,21 +50,6 @@
   <url>
     <loc>http://justinyhuang.github.io/about/</loc>
     <lastmod>2020-02-28T17:15:54-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://justinyhuang.github.io/</loc>
-    <lastmod>2020-02-28T17:15:54-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="http://justinyhuang.github.io/cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://justinyhuang.github.io/"
-                />
   </url>
   
   <url>
