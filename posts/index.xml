@@ -14,13 +14,33 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 21:58:30 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 07:53:34 -0700</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>A Short Journey With Macros</title>
+        <link>http://justinyhuang.github.io/posts/a-short-journey-with-macros/</link>
+        <pubDate>Tue, 09 Mar 2021 07:53:34 -0700</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 09 Mar 2021 07:53:34 -0700</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/a-short-journey-with-macros/</guid>
+        <description>&lt;p&gt;Playing with embedded systems for quite a few years, I have gained special love for arrays, enums, structs and, macros.&lt;br /&gt;
+These are basic data structures and language features when used properly, would offer great readability, space/time efficiency&lt;br /&gt;
+and, pleasure. A lot of the time with these simple tools one can construct zero-cost abstraction, which still facinates me every now and then.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>2020 年记</title>
@@ -53,24 +73,6 @@ Timing Diagram Legends
 It is very likely the next material you will read after this one is an AMBA spec, where you will see some timing diagram conventions like below
 and it will be helpful to understand now what they actually mean.
 Well clock is straightforward and you don&amp;rsquo;t need to be a hardware guy to understand what it means: a high and a low means one clock cycle. The rising/falling edge might trigger some operations in the hardware that driven by this clock (a.</description>
-        
-        <dc:creator>Justin</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Amba for Dummies: Top Level View of Amba</title>
-        <link>http://justinyhuang.github.io/posts/amba-for-dummies-top-level-view-of-amba/</link>
-        <pubDate>Thu, 07 May 2020 08:01:19 -0600</pubDate>
-        <author>justin.y.huang@live.com (Justin)</author>
-        <atom:modified>Thu, 07 May 2020 08:01:19 -0600</atom:modified>
-        <guid>http://justinyhuang.github.io/posts/amba-for-dummies-top-level-view-of-amba/</guid>
-        <description>&lt;p&gt;&lt;em&gt;The ARM Advanced Microcontroller Bus Architecture (AMBA) is an open-standard, on-chip interconnect specification for the connection and management of functional blocks in system-on-a-chip (SoC) designs. - Wikipedia&lt;/em&gt;&lt;/p&gt;</description>
         
         <dc:creator>Justin</dc:creator>
         
