@@ -14,7 +14,7 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 07:53:34 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Apr 2021 16:28:54 -0600</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,24 @@
         
       
 
+      
+      <item>
+        <title>Zephyr Memory Slab Design</title>
+        <link>http://justinyhuang.github.io/posts/zephyr-memory-slab-design/</link>
+        <pubDate>Tue, 13 Apr 2021 16:28:54 -0600</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Tue, 13 Apr 2021 16:28:54 -0600</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/zephyr-memory-slab-design/</guid>
+        <description>&lt;p&gt;I have been always interested in zero cost abstraction designs and data structures. Recently I just found another great example while checking the &lt;a href=&#34;https://github.com/zephyrproject-rtos/zephyr&#34;&gt;Zephyr project&lt;/a&gt;: the memory slabs.&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>A Short Journey With Macros</title>

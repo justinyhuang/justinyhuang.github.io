@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://justinyhuang.github.io/posts/a-short-journey-with-macros/</loc>
-    <lastmod>2021-03-09T07:53:34-07:00</lastmod>
-  </url>
-  
   <url>
     <loc>http://justinyhuang.github.io/posts/</loc>
-    <lastmod>2021-03-09T07:53:34-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-13T16:28:54-06:00</lastmod>
+  </url><url>
     <loc>http://justinyhuang.github.io/</loc>
-    <lastmod>2021-03-09T07:53:34-07:00</lastmod>
+    <lastmod>2021-04-13T16:28:54-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -25,479 +17,295 @@
                 hreflang="en"
                 href="http://justinyhuang.github.io/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://justinyhuang.github.io/posts/zephyr-memory-slab-design/</loc>
+    <lastmod>2021-04-13T16:28:54-06:00</lastmod>
+  </url><url>
+    <loc>http://justinyhuang.github.io/posts/a-short-journey-with-macros/</loc>
+    <lastmod>2021-03-09T07:53:34-07:00</lastmod>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2020-nian-ji/</loc>
     <lastmod>2021-01-12T21:58:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/amba-for-dummies-amba-3-deep-dive-apb/</loc>
     <lastmod>2020-06-02T08:59:23-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/amba-for-dummies-preface/</loc>
     <lastmod>2020-03-17T17:40:01-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/amba-for-dummies-intro/</loc>
     <lastmod>2020-03-16T09:50:51-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/software-engineering-vs-workwooking/</loc>
     <lastmod>2020-03-06T09:26:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/about/</loc>
     <lastmod>2020-02-28T17:15:54-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2019-nian-ji/</loc>
     <lastmod>2020-01-04T08:47:56-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2018nian-ji/</loc>
     <lastmod>2018-12-31T10:59:55+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2017-summary/</loc>
     <lastmod>2017-12-29T23:14:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2016guo-qi-nian-ji/</loc>
     <lastmod>2017-06-25T22:32:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/a-custom-made-bluetooth-mechanical-keyboard/</loc>
     <lastmod>2016-04-29T22:18:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2015/</loc>
     <lastmod>2015-12-31T11:21:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/a-journey-of-making-customized-keyboard/</loc>
     <lastmod>2015-11-11T21:43:43+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/from-qwerty-to-colemak/</loc>
     <lastmod>2015-09-05T23:53:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/linkedin-the-false-land/</loc>
     <lastmod>2015-07-07T22:52:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/yong-bao-zheng-chao/</loc>
     <lastmod>2015-06-28T14:11:31+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/three-engineer-levels/</loc>
     <lastmod>2015-06-08T22:22:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/guan-yu-ren-de-liang-chong-lei-xing/</loc>
     <lastmod>2015-05-21T15:40:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/nu-er-dan-sheng/</loc>
     <lastmod>2015-05-17T15:48:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/ri-ben-lin-ju/</loc>
     <lastmod>2015-05-09T16:15:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/migrate-to-nikola/</loc>
     <lastmod>2015-03-10T21:29:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2014/</loc>
     <lastmod>2015-02-03T21:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2013/</loc>
     <lastmod>2014-01-16T14:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/tong-hun/</loc>
     <lastmod>2013-12-05T17:11:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/what-to-debug-when-you-are-debugging/</loc>
     <lastmod>2013-09-13T10:52:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/about-smart-watches/</loc>
     <lastmod>2013-09-03T21:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/repeat-in-vim/</loc>
     <lastmod>2013-08-06T18:48:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/minimal-setup-for-remote-access-linux-from-windows-with-x/</loc>
     <lastmod>2013-03-21T18:18:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2012/</loc>
     <lastmod>2013-01-06T22:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/tie-hun-tie-yu-xiu/</loc>
     <lastmod>2012-12-04T10:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/qiu-you-ri-ben-gui-lai/</loc>
     <lastmod>2012-12-02T11:52:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/kai-guan/</loc>
     <lastmod>2012-10-27T12:08:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/hello-octopress/</loc>
     <lastmod>2012-10-06T23:56:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/god-might-be-a-supercomputer/</loc>
     <lastmod>2012-09-26T13:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/the-not-so-easy-c/</loc>
     <lastmod>2012-08-05T13:49:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e5a496e5a986/</loc>
     <lastmod>2012-05-15T08:24:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/twitter-enabled-printer/</loc>
     <lastmod>2012-03-13T01:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/2011-nian-ji/</loc>
     <lastmod>2012-01-04T22:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/keep-your-fingers-away-from-esc/</loc>
     <lastmod>2011-12-11T02:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e69ca8e5a99ae280a2e4ba94e5b9b4/</loc>
     <lastmod>2011-12-06T20:28:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/an-improved-version-of-counting-sort-implementation/</loc>
     <lastmod>2011-11-26T02:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e7a88be5ba8fe59198e88081e4ba8c/</loc>
     <lastmod>2011-07-30T10:23:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-iii/</loc>
     <lastmod>2011-06-26T00:38:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-ii/</loc>
     <lastmod>2011-06-07T07:03:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/encryption-and-decryption/</loc>
     <lastmod>2011-06-06T08:51:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce6b497e7a297/</loc>
     <lastmod>2011-05-09T23:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b880e99bb6e5b9b4e8aeb0/</loc>
     <lastmod>2011-01-11T21:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e8af97/</loc>
     <lastmod>2011-01-03T15:11:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b89de5a99a-e4b8a4e4b8aae4babae79a84e7bb93e5a99ae98592/</loc>
     <lastmod>2010-12-05T16:47:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ee4bd9ce4b89a/</loc>
     <lastmod>2010-08-30T23:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e2809ce9878de5a99ae2809de8b58ce59f8e/</loc>
     <lastmod>2010-08-29T00:58:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/note-on-a-fe-defects/</loc>
     <lastmod>2010-08-08T04:23:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e58ebbe4ba86e4b889e795aa/</loc>
     <lastmod>2010-08-04T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e58ebbe4ba86e68bb1e997a8e59bbde5aeb6e585ace59bad/</loc>
     <lastmod>2010-06-11T13:28:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/asymptotic_notation/</loc>
     <lastmod>2010-05-23T21:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e79c8be4ba86e58fb6e997ae2/</loc>
     <lastmod>2010-05-05T18:49:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce999aae9809be8a197e7bb8fe9aa8ce8b088/</loc>
     <lastmod>2010-04-24T10:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e58fb2e4b88ae69c80e5bcbae79a84e887ade8b186e88590e5b9bfe5918ae8afad/</loc>
     <lastmod>2010-04-10T14:49:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/09e680bbe7bb93/</loc>
     <lastmod>2010-01-11T23:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce4b88ae58e95e68980/</loc>
     <lastmod>2009-12-29T16:48:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b880e4ba9be99bb6e7a28ee79a84e8aeb0e5bd95/</loc>
     <lastmod>2009-12-29T16:36:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4bb8ee2809ce5a682e4bd95e68890e4b8bae4b880e5908de7a88be5ba8fe59198e2809de79c8be588b0e79a84/</loc>
     <lastmod>2009-12-16T22:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e79aaee5a99a-e68891e79a84e88081e5a6bb/</loc>
     <lastmod>2009-12-12T16:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce8afb4e68890e8afad-e4babae697a0e8bf9ce89991e5bf85e69c89e8bf91e5bfa7/</loc>
     <lastmod>2009-09-16T22:18:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce79a84e697b6e997b4e8a782/</loc>
     <lastmod>2009-09-12T18:08:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e7ae80e58d95e79a84e682bce5bfb5/</loc>
     <lastmod>2009-07-27T22:34:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e7949fe591bde79a84e4b889e7bbb4/</loc>
     <lastmod>2009-05-02T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce8b58fe88ab1/</loc>
     <lastmod>2009-04-04T11:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e696b0e5b7a5e4bd9ce69c88e69cabe5b08fe8aeb0/</loc>
     <lastmod>2009-02-28T23:09:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b99fe698afe585b3e4ba8ee788b1e68385/</loc>
     <lastmod>2009-02-09T22:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/farewell-hp/</loc>
     <lastmod>2009-02-08T10:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b88de68a98e885bee58583e5b9b4e9a284e5918a/</loc>
     <lastmod>2009-01-28T17:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e8bdafe69fbfe5ad90e5a5bde68d8f/</loc>
     <lastmod>2009-01-13T15:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/08e680bbe7bb93/</loc>
     <lastmod>2009-01-01T22:58:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e5b883e5a99a/</loc>
     <lastmod>2009-01-01T11:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e69d82e683b3/</loc>
     <lastmod>2008-03-23T00:02:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/07e5b9b4e680bbe7bb93/</loc>
     <lastmod>2008-03-07T23:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e7bab8e5a99a/</loc>
     <lastmod>2008-01-12T22:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e696b0e4b896e7baaae595a5e69c80e8b4b5/</loc>
     <lastmod>2007-10-20T22:02:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e7baaae5bfb5e697a5/</loc>
     <lastmod>2007-08-27T22:43:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e983bde8afb4/</loc>
     <lastmod>2007-08-05T22:56:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e6b2a1e69c89e9a298e79bae/</loc>
     <lastmod>2007-04-18T11:26:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4babae7949fe5a682e6888f/</loc>
     <lastmod>2007-03-10T07:19:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/06e680bbe7bb93/</loc>
     <lastmod>2007-01-06T12:47:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e5bc80e5a78be590a7/</loc>
     <lastmod>2006-12-10T11:13:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e79da1e98692e4ba86efbc8ce8bf98e6b2a1e6adbb/</loc>
     <lastmod>2006-10-31T18:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e59b9ee5aeb6/</loc>
     <lastmod>2006-08-05T10:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e6af95e4b89ae4ba86e280a6e280a6/</loc>
     <lastmod>2006-07-06T00:42:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e88081e4ba8ce683b3e4b88de9809ae79a84e4ba8b/</loc>
     <lastmod>2006-05-03T14:17:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e4b880e4ba9be4ba8b/</loc>
     <lastmod>2006-03-25T21:08:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e8999ae4bcaae79a84e781b5e9ad82/</loc>
     <lastmod>2006-03-24T00:41:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e5bfbde784b6e997b4e5be88e5bf99e280a6e280a6/</loc>
     <lastmod>2006-03-18T16:57:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e5af82e5af9e/</loc>
     <lastmod>2006-02-05T05:37:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/posts/e58f88e698afe4b880e5b9b4/</loc>
     <lastmod>2006-01-01T01:37:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -509,9 +317,7 @@
                 hreflang="en"
                 href="http://justinyhuang.github.io/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -523,9 +329,7 @@
                 hreflang="en"
                 href="http://justinyhuang.github.io/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://justinyhuang.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -538,5 +342,4 @@
                 href="http://justinyhuang.github.io/tags/"
                 />
   </url>
-  
 </urlset>
