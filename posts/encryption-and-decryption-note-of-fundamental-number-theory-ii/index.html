@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
-<meta name="generator" content="Hugo 0.82.0" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1517,12 +1517,10 @@
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p>The first thing we need to do in the main function is to prepare two groups of keys.</p>
-
 <p>The function setRSAKeys() helps to generate a public/private key pairs:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1566,84 +1564,67 @@
 </span><span class="lnt">42
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp"> <span class="kt">int</span> <span class="nf">setRSAKeys</span><span class="p">(</span> <span class="n">key</span><span class="o">*</span> <span class="n">publickey</span><span class="p">,</span> <span class="n">key</span><span class="o">*</span> <span class="n">privatekey</span><span class="p">)</span>
- <span class="p">{</span>
-     <span class="c1">//generate two 512bit primes p and q
-</span><span class="c1"></span>     <span class="kt">int</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">;</span>
-     <span class="n">srand</span><span class="p">((</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span>
-     <span class="n">getPrime</span><span class="p">(</span><span class="o">&amp;</span><span class="n">p</span><span class="p">);</span>
-     <span class="n">getPrime</span><span class="p">(</span><span class="o">&amp;</span><span class="n">q</span><span class="p">);</span>
-     <span class="c1">//printf(&#34;p = %d, q = %d\n&#34;, p, q);
-</span><span class="c1"></span>
-     <span class="c1">//calculate n and phi(n)
-</span><span class="c1"></span>     <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">;</span>
-     <span class="n">n</span> <span class="o">=</span> <span class="n">p</span> <span class="o">*</span> <span class="n">q</span><span class="p">;</span>
-     <span class="n">phi_n</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
-     <span class="c1">//printf(&#34;n = %d, phi(n) = %d\n&#34;, n, phi_n);
-</span><span class="c1"></span>
-     <span class="c1">//calculate e, a small odd relatively prime to phi_n
-</span><span class="c1"></span>     <span class="kt">int</span> <span class="n">e</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-     <span class="k">do</span>
-     <span class="p">{</span>
-         <span class="n">e</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">;</span>
-     <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="mi">1</span> <span class="o">!=</span> <span class="n">gcd</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">));</span>
-     <span class="c1">//printf(&#34;e = %d\n&#34;, e);
-</span><span class="c1"></span>
-     <span class="c1">//calculate d, the multiplicative inverse of e, modulo phi_n
-</span><span class="c1"></span>     <span class="n">euclid_coefficients</span> <span class="n">ec</span> <span class="p">;</span>
-     <span class="kt">int</span> <span class="n">d</span><span class="p">;</span>
-     <span class="n">ec</span> <span class="o">=</span> <span class="n">Extended_Euclid</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">);</span>
-     <span class="n">d</span> <span class="o">=</span> <span class="n">ec</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
-     <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">&gt;</span> <span class="n">d</span><span class="p">)</span>
-     <span class="p">{</span>
-         <span class="n">d</span> <span class="o">+=</span> <span class="n">phi_n</span><span class="p">;</span>
-     <span class="p">}</span>
-     <span class="c1">//printf(&#34;d = %d\n&#34;, d);
-</span><span class="c1"></span>
-     <span class="c1">//return (n, e) and (n, d)
-</span><span class="c1"></span>     <span class="n">publickey</span><span class="o">-&gt;</span><span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
-     <span class="n">publickey</span><span class="o">-&gt;</span><span class="n">_key</span> <span class="o">=</span> <span class="n">e</span><span class="p">;</span>
-     <span class="n">privatekey</span><span class="o">-&gt;</span><span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
-     <span class="n">privatekey</span><span class="o">-&gt;</span><span class="n">_key</span> <span class="o">=</span> <span class="n">d</span><span class="p">;</span>
-
-     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
- <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"> <span class="kt">int</span> <span class="nf">setRSAKeys</span><span class="p">(</span> <span class="n">key</span><span class="o">*</span> <span class="n">publickey</span><span class="p">,</span> <span class="n">key</span><span class="o">*</span> <span class="n">privatekey</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//generate two 512bit primes p and q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="kt">int</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">srand</span><span class="p">((</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">     <span class="n">getPrime</span><span class="p">(</span><span class="o">&amp;</span><span class="n">p</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="n">getPrime</span><span class="p">(</span><span class="o">&amp;</span><span class="n">q</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//printf(&#34;p = %d, q = %d\n&#34;, p, q);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//calculate n and phi(n)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n</span> <span class="o">=</span> <span class="n">p</span> <span class="o">*</span> <span class="n">q</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">phi_n</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//printf(&#34;n = %d, phi(n) = %d\n&#34;, n, phi_n);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//calculate e, a small odd relatively prime to phi_n
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="kt">int</span> <span class="n">e</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="k">do</span>
+</span></span><span class="line"><span class="cl">     <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="n">e</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="mi">1</span> <span class="o">!=</span> <span class="n">gcd</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//printf(&#34;e = %d\n&#34;, e);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//calculate d, the multiplicative inverse of e, modulo phi_n
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="n">euclid_coefficients</span> <span class="n">ec</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="kt">int</span> <span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">ec</span> <span class="o">=</span> <span class="n">Extended_Euclid</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">phi_n</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">     <span class="n">d</span> <span class="o">=</span> <span class="n">ec</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">&gt;</span> <span class="n">d</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">     <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="n">d</span> <span class="o">+=</span> <span class="n">phi_n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="p">}</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//printf(&#34;d = %d\n&#34;, d);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">     <span class="c1">//return (n, e) and (n, d)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>     <span class="n">publickey</span><span class="o">-&gt;</span><span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">publickey</span><span class="o">-&gt;</span><span class="n">_key</span> <span class="o">=</span> <span class="n">e</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">privatekey</span><span class="o">-&gt;</span><span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">     <span class="n">privatekey</span><span class="o">-&gt;</span><span class="n">_key</span> <span class="o">=</span> <span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-
-<p>In the function above, two primes are picked to compute <span  class="math">\(n\)</span>, which in reality is a gigantic number because <span  class="math">\(p\)</span> and <span  class="math">\(q\)</span> are big primes, say 1024 bits each. (again in this note we simplified the case by using small integers)</p>
-
-<p>Then <span  class="math">\(e\)</span> and <span  class="math">\(d\ =\ \phi(n)\)</span> are obtained to form the primes: <span  class="math">\(e\)</span>is a small odd integer and falls into the public key set. <span  class="math">\(d\)</span>, another big number calculated based on <span  class="math">\(n\)</span>, is not very easy to guess (or reversed-engineering), and is therefore put as part of the private key set.</p>
-
-<p>Euler's phi function: <span  class="math">\(\phi(n)=n\ \displaystyle\prod_{p|n} \left(1- \frac{1}{p}\right)\)</span></p>
-
-<p>where <span  class="math">\(\phi(n)\)</span>is the size of <span  class="math">\(\mathbb{Z}_{n}^*\)</span>, <span  class="math">\(p\)</span> runs over all the primes dividing <span  class="math">\(n\)</span>(including <span  class="math">\(n\)</span>itself, if <span  class="math">\(n\)</span>is prime, too)</p>
-
-<p><span  class="math">\(\mathbb{Z}_{n}^*\)</span>is the <strong>multiplicative group modulo n</strong>, or defined as</p>
-
-<p><span  class="math">\(\mathbb{Z}_{n}^* = {[a]_n}\)</span>in <span  class="math">\(\mathbb{Z}_{n} : gcd(a,n) = 1\)</span></p>
-
-<p>where <span  class="math">\([a]_{n}\)</span>= <span  class="math">\(a'\)</span>mod <span  class="math">\(n\)</span>, <span  class="math">\(a'\)</span>in <span  class="math">\({Z}\)</span></p>
-
-<p>e.g. <span  class="math">\(\mathbb{Z}_{15}^*\ =\ \{1, 2, 4, 7, 8, 11, 13, 14\}\)</span>, <span  class="math">\(\phi( 15 ) = 15 ( 1 - \frac{1}{3} ) ( 1 - \frac{1}{5} ) = 8\)</span></p>
-
-<p>When we select <span  class="math">\(p\)</span> and <span  class="math">\(q\)</span>, which are primes and <span  class="math">\(n\ =\ pq\)</span>, The phi function becomes <span  class="math">\(\phi(n)\ =\ (p-1)(q-1)\)</span> , much easier now =)</p>
-
-<p>At the end of the above function we have set two groups of keys: the public key <span  class="math">\(\{e,\ n\}\)</span>and the private key <span  class="math">\(\{d,\ n\}\)</span></p>
-
-<p>With the public and private keys, encrypting and decrypting a message becomes easy.
-Given a message <span  class="math">\(M\)</span>, to encrypt <span  class="math">\(M\)</span>we do: <span  class="math">\(M^e\ mod\ n\)</span></p>
-
-<p>the outcome of which, <span  class="math">\(S\)</span>, is the encrypted message.</p>
-
-<p>To decrypt the secret, <span  class="math">\(S^d\ mod\ n\)</span> will give you the original message.</p>
-
-<p><span  class="math">\(d = e^{-1}\ mod\ \phi(n) = e^{-1}\ mod\ ((p-1)(q-1))\)</span> guarantees for the given <span  class="math">\(p\)</span>, <span  class="math">\(q\)</span>and <span  class="math">\(e\)</span>there will be a unique <span  class="math">\(d\)</span>. Therefore for a given public key <span  class="math">\(\{ e,\ n \}\)</span>, there will be one and only one private key <span  class="math">\(\{ d,\ n \}\)</span>. This is exactly what we want!</p>
-
-<p>On the other hand, <span  class="math">\((M^e\ mod\ n)^d\ mod\ n\ =\ M^{ed}\ mod\ n\ =\ M\)</span> promises the encryption and decryption are irreversible operations.</p>
-
-<p>To be continued...</p>
+<p>In the function above, two primes are picked to compute $$n$$, which in reality is a gigantic number because $$p$$ and $$q$$ are big primes, say 1024 bits each. (again in this note we simplified the case by using small integers)</p>
+<p>Then $$e$$ and $$d\ =\ \phi(n)$$ are obtained to form the primes: $$e$$is a small odd integer and falls into the public key set. $$d$$, another big number calculated based on $$n$$, is not very easy to guess (or reversed-engineering), and is therefore put as part of the private key set.</p>
+<p>Euler&rsquo;s phi function: $$\phi(n)=n\ \displaystyle\prod_{p|n} \left(1- \frac{1}{p}\right)$$</p>
+<p>where $$\phi(n)$$is the size of $$\mathbb{Z}_{n}^*$$, $$p$$ runs over all the primes dividing $$n$$(including $$n$$itself, if $$n$$is prime, too)</p>
+<p>$$\mathbb{Z}_{n}^*$$is the <strong>multiplicative group modulo n</strong>, or defined as</p>
+<p>$$\mathbb{Z}_{n}^* = {[a]<em>n}$$in $$\mathbb{Z}</em>{n} : gcd(a,n) = 1$$</p>
+<p>where $$[a]_{n}$$= $$a&rsquo;$$mod $$n$$, $$a&rsquo;$$in $${Z}$$</p>
+<p>e.g. $$\mathbb{Z}_{15}^*\ =\ {1, 2, 4, 7, 8, 11, 13, 14}$$, $$\phi( 15 ) = 15 ( 1 - \frac{1}{3} ) ( 1 - \frac{1}{5} ) = 8$$</p>
+<p>When we select $$p$$ and $$q$$, which are primes and $$n\ =\ pq$$, The phi function becomes $$\phi(n)\ =\ (p-1)(q-1)$$ , much easier now =)</p>
+<p>At the end of the above function we have set two groups of keys: the public key $${e,\ n}$$and the private key $${d,\ n}$$</p>
+<p>With the public and private keys, encrypting and decrypting a message becomes easy.<br />
+Given a message $$M$$, to encrypt $$M$$we do: $$M^e\ mod\ n$$</p>
+<p>the outcome of which, $$S$$, is the encrypted message.</p>
+<p>To decrypt the secret, $$S^d\ mod\ n$$ will give you the original message.</p>
+<p>$$d = e^{-1}\ mod\ \phi(n) = e^{-1}\ mod\ ((p-1)(q-1))$$ guarantees for the given $$p$$, $$q$$and $$e$$there will be a unique $$d$$. Therefore for a given public key $${ e,\ n }$$, there will be one and only one private key $${ d,\ n }$$. This is exactly what we want!</p>
+<p>On the other hand, $$(M^e\ mod\ n)^d\ mod\ n\ =\ M^{ed}\ mod\ n\ =\ M$$ promises the encryption and decryption are irreversible operations.</p>
+<p>To be continued&hellip;</p>
     </article>
     
     <script>
@@ -1898,7 +1879,7 @@ Given a message <span  class="math">\(M\)</span>, to encrypt <span  class="math"
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2200,7 +2181,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </section>
 
@@ -3011,7 +2992,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

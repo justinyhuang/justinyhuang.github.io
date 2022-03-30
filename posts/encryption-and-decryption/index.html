@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
-<meta name="generator" content="Hugo 0.82.0" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1539,7 +1539,7 @@ Everyone will be able to read the plain message sent with digital signature, as 
 First the top main function:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1572,38 +1572,37 @@ First the top main function:</p>
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">    <span class="k">typedef</span> <span class="k">struct</span> <span class="nc">key</span>
-    <span class="p">{</span>
-       <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
-       <span class="kt">int</span> <span class="n">_key</span><span class="p">;</span>
-    <span class="p">}</span> <span class="n">key</span><span class="p">;</span>
-
-    <span class="cp">#define MESSAGE_LENGTH 5
-</span><span class="cp"></span>
-    <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
-    <span class="p">{</span>
-       <span class="cm">/*prepare the keys*/</span>
-       <span class="n">key</span> <span class="n">publickey</span><span class="p">,</span> <span class="n">privatekey</span><span class="p">;</span>
-       <span class="n">setRSAKeys</span><span class="p">(</span><span class="o">&amp;</span><span class="n">publickey</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">privatekey</span><span class="p">);</span>
-
-       <span class="cm">/* use long here to hold the encrypted message */</span>
-       <span class="kt">long</span> <span class="n">message</span><span class="p">[</span><span class="n">MESSAGE_LENGTH</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sc">&#39;h&#39;</span><span class="p">,</span> <span class="sc">&#39;e&#39;</span><span class="p">,</span> <span class="sc">&#39;l&#39;</span><span class="p">,</span> <span class="sc">&#39;l&#39;</span><span class="p">,</span> <span class="sc">&#39;o&#39;</span><span class="p">};</span>
-
-       <span class="cm">/* Encryption - process message with the publickey */</span>
-       <span class="n">processMessage</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">publickey</span><span class="p">);</span>
-
-       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;the encrypted message:</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-       <span class="n">printMessage</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
-
-       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;the decrypted message:</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-       <span class="n">processMessage</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">privatekey</span><span class="p">);</span>
-
-       <span class="cm">/* prints the outcome */</span>
-       <span class="n">printMessage</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
-
-       <span class="k">return</span> <span class="n">EXIT_SUCCESS</span><span class="p">;</span>
-    <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">    <span class="k">typedef</span> <span class="k">struct</span> <span class="nc">key</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">_key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="n">key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="cp">#define MESSAGE_LENGTH 5
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="cm">/*prepare the keys*/</span>
+</span></span><span class="line"><span class="cl">       <span class="n">key</span> <span class="n">publickey</span><span class="p">,</span> <span class="n">privatekey</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">setRSAKeys</span><span class="p">(</span><span class="o">&amp;</span><span class="n">publickey</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">privatekey</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="cm">/* use long here to hold the encrypted message */</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">long</span> <span class="n">message</span><span class="p">[</span><span class="n">MESSAGE_LENGTH</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sc">&#39;h&#39;</span><span class="p">,</span> <span class="sc">&#39;e&#39;</span><span class="p">,</span> <span class="sc">&#39;l&#39;</span><span class="p">,</span> <span class="sc">&#39;l&#39;</span><span class="p">,</span> <span class="sc">&#39;o&#39;</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="cm">/* Encryption - process message with the publickey */</span>
+</span></span><span class="line"><span class="cl">       <span class="n">processMessage</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">publickey</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;the encrypted message:</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">       <span class="n">printMessage</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="n">printf</span><span class="p">(</span><span class="s">&#34;the decrypted message:</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">       <span class="n">processMessage</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">privatekey</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="cm">/* prints the outcome */</span>
+</span></span><span class="line"><span class="cl">       <span class="n">printMessage</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="k">return</span> <span class="n">EXIT_SUCCESS</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -1860,7 +1859,7 @@ First the top main function:</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2943,7 +2942,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

@@ -14,13 +14,31 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 16:28:54 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 26 Mar 2022 10:33:26 -0600</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>2021 年记</title>
+        <link>http://justinyhuang.github.io/posts/2021-nian-ji/</link>
+        <pubDate>Sat, 26 Mar 2022 10:33:26 -0600</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sat, 26 Mar 2022 10:33:26 -0600</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2021-nian-ji/</guid>
+        <description>&lt;p&gt;2022年3月，尘埃渐渐落定后，我终于可以坐下来写写过去的一年发生了什么。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Zephyr Memory Slab Design</title>
@@ -827,7 +845,7 @@ Twitter is about 6 years old and might shop for school pretty soon.&lt;/p&gt;</d
         <author>justin.y.huang@live.com (Justin)</author>
         <atom:modified>Sun, 26 Jun 2011 00:38:00 +0000</atom:modified>
         <guid>http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-iii/</guid>
-        <description>&lt;p&gt;In previous notes we&#39;ve seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in setRSAKeys(), and processMessage() are implemented.&lt;/p&gt;</description>
+        <description>&lt;p&gt;In previous notes we&amp;rsquo;ve seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in setRSAKeys(), and processMessage() are implemented.&lt;/p&gt;</description>
         
         <dc:creator>Justin</dc:creator>
         

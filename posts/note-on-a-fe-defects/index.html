@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
-<meta name="generator" content="Hugo 0.82.0" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1520,15 +1520,15 @@
 <p>Here are two of them, that I still remember:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">    <span class="c1">//..
-</span><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span> <span class="mh">0x2400</span> <span class="o">&amp;</span> <span class="mh">0x2000</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="s">&#34;you know this must be true...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-    <span class="c1">//..
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">    <span class="c1">//..
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span> <span class="mh">0x2400</span> <span class="o">&amp;</span> <span class="mh">0x2000</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="s">&#34;you know this must be true...</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//..
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>The above is an abstraction from codes of one of my projects.</p>
@@ -1543,7 +1543,7 @@
 <p>I can feel the disdain on your face  ;-), so here comes a little bit more interesting one: (again it is a make-up model of the real code)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1570,32 +1570,31 @@
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">    <span class="cp">#define E_NOTIMPL 0x01234567
-</span><span class="cp"></span>    <span class="c1">//..
-</span><span class="c1"></span>    <span class="k">class</span> <span class="nc">Base</span>
-    <span class="p">{</span>
-       <span class="k">public</span><span class="o">:</span>
-          <span class="k">virtual</span> <span class="kt">int</span> <span class="n">foo</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-          <span class="kt">int</span> <span class="nf">newfoo</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">E_NOTIMPL</span><span class="p">;</span> <span class="p">}</span>
-       <span class="c1">//..
-</span><span class="c1"></span>    <span class="p">}</span>
-
-    <span class="k">class</span> <span class="nc">Derived</span> <span class="o">:</span> <span class="k">public</span> <span class="k">virtual</span> <span class="n">Base</span>
-    <span class="p">{</span>
-       <span class="k">public</span><span class="o">:</span>
-          <span class="k">virtual</span> <span class="kt">int</span> <span class="n">foo</span><span class="p">()</span> <span class="p">{</span><span class="n">printf</span><span class="p">(</span><span class="s">&#34;Derived foo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;}</span>
-          <span class="k">virtual</span> <span class="kt">int</span> <span class="nf">newfoo</span><span class="p">()</span> <span class="p">{</span><span class="n">printf</span><span class="p">(</span><span class="s">&#34;Derived newfoo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;}</span>
-       <span class="c1">//..
-</span><span class="c1"></span>    <span class="p">}</span>
-
-    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-    <span class="p">{</span>
-       <span class="n">Derived</span> <span class="n">d</span><span class="p">;</span>
-       <span class="n">Base</span><span class="o">*</span> <span class="n">pb</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">;</span>
-       <span class="n">pb</span><span class="o">-&gt;</span><span class="n">foo</span><span class="p">();</span>
-       <span class="n">pb</span><span class="o">-&gt;</span><span class="n">newfoo</span><span class="p">();</span>
-    <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">    <span class="cp">#define E_NOTIMPL 0x01234567
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>    <span class="c1">//..
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">class</span> <span class="nc">Base</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">          <span class="k">virtual</span> <span class="kt">int</span> <span class="n">foo</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="kt">int</span> <span class="nf">newfoo</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">E_NOTIMPL</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">       <span class="c1">//..
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">class</span> <span class="nc">Derived</span> <span class="o">:</span> <span class="k">public</span> <span class="k">virtual</span> <span class="n">Base</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">          <span class="k">virtual</span> <span class="kt">int</span> <span class="n">foo</span><span class="p">()</span> <span class="p">{</span><span class="n">printf</span><span class="p">(</span><span class="s">&#34;Derived foo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;}</span>
+</span></span><span class="line"><span class="cl">          <span class="k">virtual</span> <span class="kt">int</span> <span class="nf">newfoo</span><span class="p">()</span> <span class="p">{</span><span class="n">printf</span><span class="p">(</span><span class="s">&#34;Derived newfoo</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;}</span>
+</span></span><span class="line"><span class="cl">       <span class="c1">//..
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="n">Derived</span> <span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">Base</span><span class="o">*</span> <span class="n">pb</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">pb</span><span class="o">-&gt;</span><span class="n">foo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">       <span class="n">pb</span><span class="o">-&gt;</span><span class="n">newfoo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>The problem of the code above is, i can&rsquo;t get the &ldquo;Derived newfoo&rdquo; at all. What is even quirky is, in my debugger I see no execution point in the line <em>pb-&gt;newfoo();</em>, which means line 24 doesn&rsquo;t even execute!</p>
@@ -1859,7 +1858,7 @@
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2942,7 +2941,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

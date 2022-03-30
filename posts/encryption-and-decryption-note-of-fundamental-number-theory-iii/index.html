@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
-<meta name="generator" content="Hugo 0.82.0" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1238,7 +1238,7 @@
     "datePublished": "2011-06-26T00:38:00Z",
     "dateModified": "2011-06-26T00:38:00Z",
     "url" : "http://justinyhuang.github.io/posts/encryption-and-decryption-note-of-fundamental-number-theory-iii/",
-    "description": "\u003cp\u003eIn previous notes we've seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in …\u003c/p\u003e",
+    "description": "\u003cp\u003eIn previous notes we\u0026rsquo;ve seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper …\u003c/p\u003e",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://justinyhuang.github.io/"
@@ -1516,15 +1516,13 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>In previous notes we've seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in setRSAKeys(), and processMessage() are implemented.</p>
-
+      <p>In previous notes we&rsquo;ve seen how messages are encrypted/decrypted from the top and middle level. Eventually we come to the very detail about how the helper functions in setRSAKeys(), and processMessage() are implemented.</p>
 <ul>
 <li>getPrime() in getRSAKeys() returns a prime. It randomly picks an integer and calls isPrime() to test if it is a prime. isPrime() makes use of ModularExponentiation() to perform the pseudo prime test.</li>
 </ul>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1591,104 +1589,90 @@
 </span><span class="lnt">65
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">        <span class="kt">int</span> <span class="nf">ModularExponentiation</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-            <span class="kt">int</span> <span class="n">d</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-            <span class="kt">int</span> <span class="n">mask</span> <span class="o">=</span> <span class="mh">0x8000</span><span class="p">;</span>
-
-            <span class="cm">/*locate the most significant bit of b*/</span>
-            <span class="k">while</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">mask</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">;</span>
-
-            <span class="k">while</span> <span class="p">(</span><span class="mi">0</span> <span class="o">!=</span> <span class="n">mask</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
-                <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">*</span> <span class="n">d</span><span class="p">)</span> <span class="o">%</span> <span class="n">n</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">!=</span> <span class="p">(</span><span class="n">mask</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">))</span>
-                <span class="p">{</span>
-                    <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-                    <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">*</span> <span class="n">a</span><span class="p">)</span> <span class="o">%</span> <span class="n">n</span><span class="p">;</span>
-                <span class="p">}</span>
-                <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span> <span class="o">&gt;&gt;</span>  <span class="mi">1</span><span class="p">;</span>
-            <span class="p">}</span>
-
-            <span class="k">return</span> <span class="n">d</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="kt">bool</span> <span class="nf">isPrime</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="cm">/*this function requires function ModularExponentiation(),
-</span><span class="cm">             *which assumes the input n is an odd integer greater than 2
-</span><span class="cm">             */</span>
-
-            <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-            <span class="p">}</span>
-
-            <span class="k">if</span> <span class="p">(</span> <span class="mi">1</span> <span class="o">==</span> <span class="n">ModularExponentiation</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
-            <span class="p">{</span>
-                <span class="c1">//This is, possibly, a prime, or to be accurate, a pseudoprime
-</span><span class="c1"></span>                <span class="k">if</span> <span class="p">(</span> <span class="mi">561</span> <span class="o">==</span> <span class="n">n</span><span class="p">)</span>
-                   <span class="k">return</span> <span class="nb">false</span><span class="p">;</span> <span class="c1">// the only Carmichael number in [1, 1000]
-</span><span class="c1"></span>                <span class="k">else</span>
-                   <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="k">else</span>
-            <span class="p">{</span>
-                <span class="c1">//This is definitely a composite
-</span><span class="c1"></span>                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-
-        <span class="kt">void</span> <span class="nf">getPrime</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span> <span class="n">prime</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="kt">int</span> <span class="n">suspect</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-            <span class="k">do</span>
-            <span class="p">{</span>
-                <span class="c1">//pick a random number
-</span><span class="c1"></span>                <span class="n">suspect</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span> <span class="o">%</span> <span class="mi">1000</span><span class="p">;</span>
-                <span class="c1">//test if it is a prime
-</span><span class="c1"></span>                <span class="c1">//if yes, return
-</span><span class="c1"></span>                <span class="c1">//go to the top
-</span><span class="c1"></span>            <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="o">!</span> <span class="n">isPrime</span><span class="p">(</span><span class="n">suspect</span><span class="p">));</span>
-
-            <span class="o">*</span><span class="n">prime</span> <span class="o">=</span> <span class="n">suspect</span><span class="p">;</span>
-        <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">        <span class="kt">int</span> <span class="nf">ModularExponentiation</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">d</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">mask</span> <span class="o">=</span> <span class="mh">0x8000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="cm">/*locate the most significant bit of b*/</span>
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">mask</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">while</span> <span class="p">(</span><span class="mi">0</span> <span class="o">!=</span> <span class="n">mask</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">*</span> <span class="n">d</span><span class="p">)</span> <span class="o">%</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">!=</span> <span class="p">(</span><span class="n">mask</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">                <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">*</span> <span class="n">a</span><span class="p">)</span> <span class="o">%</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span> <span class="o">&gt;&gt;</span>  <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">bool</span> <span class="nf">isPrime</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="cm">/*this function requires function ModularExponentiation(),
+</span></span></span><span class="line"><span class="cl"><span class="cm">             *which assumes the input n is an odd integer greater than 2
+</span></span></span><span class="line"><span class="cl"><span class="cm">             */</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span> <span class="mi">1</span> <span class="o">==</span> <span class="n">ModularExponentiation</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">//This is, possibly, a prime, or to be accurate, a pseudoprime
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">if</span> <span class="p">(</span> <span class="mi">561</span> <span class="o">==</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                   <span class="k">return</span> <span class="nb">false</span><span class="p">;</span> <span class="c1">// the only Carmichael number in [1, 1000]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                   <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">//This is definitely a composite
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">void</span> <span class="nf">getPrime</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span> <span class="n">prime</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">suspect</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">do</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">//pick a random number
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">suspect</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span> <span class="o">%</span> <span class="mi">1000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">//test if it is a prime
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="c1">//if yes, return
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="c1">//go to the top
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="o">!</span> <span class="n">isPrime</span><span class="p">(</span><span class="n">suspect</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="o">*</span><span class="n">prime</span> <span class="o">=</span> <span class="n">suspect</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-
-<p>The <em>modular exponentiation</em> is to compute <span  class="math">\(a^b\)</span> mod <span  class="math">\(n\)</span>, where <span  class="math">\(a\)</span> and <span  class="math">\(b\)</span> are nonnegative integers and <span  class="math">\(n\)</span> is a positive integer. Here it is used to test if an input number is a prime. The test is also called <em>primality-testing</em>. In this note the so-called <strong>repeated squaring</strong> method, described as below, is utilized to compute the <em>modular exponentiation</em>:</p>
-
-<p>Let <span  class="math">\((b_k, b_{k-1}, ..., b_0)\)</span> representing the binary form of <span  class="math">\(b\)</span>. <span  class="math">\(b_0\)</span> is the least significant bit. <em>ModularExponentiation(int a, int b, int n)</em> computes <span  class="math">\(a^c\)</span> mod <span  class="math">\(n\)</span> as <span  class="math">\(c\)</span> is increased by doublings, from 0 to <span  class="math">\(b\)</span>.</p>
-
+<p>The <em>modular exponentiation</em> is to compute $$a^b$$ mod $$n$$, where $$a$$ and $$b$$ are nonnegative integers and $$n$$ is a positive integer. Here it is used to test if an input number is a prime. The test is also called <em>primality-testing</em>. In this note the so-called <strong>repeated squaring</strong> method, described as below, is utilized to compute the <em>modular exponentiation</em>:</p>
+<p>Let $$(b_k, b_{k-1}, &hellip;, b_0)$$ representing the binary form of $$b$$. $$b_0$$ is the least significant bit. <em>ModularExponentiation(int a, int b, int n)</em> computes $$a^c$$ mod $$n$$ as $$c$$ is increased by doublings, from 0 to $$b$$.</p>
 <p>The function returns false when the input <em>n</em> is a composite, and true, if <em>n</em> is a pseudo-prime, which is very likely to be a prime, with a few exceptions.</p>
-
 <p>The exceptions are called Carmichael numbers. They are composites and are also pseudo-primes, but they are very rare. So rare they are that for integers less than 100,000,000 there are only 255 Carmichael numbers.</p>
-
 <p>In this note we make lives simple and limit the participants less than 1000, in which there is only one Carmichael number, 561.</p>
-
-<p>There are of course other ways to perform perfect prime test. <a href="http://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">Miller-Rabin randomized primality test</a>, for example, overcomes the &quot;fake prime&quot; problem that we have in the method above. Again to keep this note short we simply use the Modular Exponentiation method.</p>
-
-<p>With a method for primality test, in the code above a random number is picked and tested.
-But how many numbers should we pick until a prime is found? Is there a way to estimate the density of primes given the integer range?
-Yes, by the <strong>Prime number theorem</strong>: <span  class="math">\(lim_{x \to \infty} \frac{ \pi(n)}{n \ln n} = 1\)</span></p>
-
-<p>the number of primes equal or less than <span  class="math">\(n\)</span> is approximately <span  class="math">\(\frac{n}{\ln n}\)</span></p>
-
-<p>So before we can find a 1024-bit long prime, we will need to test about <span  class="math">\(\ln 2^{1024} \approx 709\)</span> numbers, and if we skip checking the evens, there are only 354 candidates to test.</p>
-
-<p>Back to our little simple case, we will get a prime, oh, a pseudo-prime, after trying about <span  class="math">\(\frac{\ln 2^{9}}{2} \approx 3\)</span> times, not bad ha?</p>
-
-<p>After getting the required primes, two functions, <em>gcd()</em> and <em>Extended_Euclid()</em>, are used in <em>setRSAKeys()</em> to get <span  class="math">\(e\)</span> and <span  class="math">\(d\)</span>.</p>
-
-<p>The functions <em>gcd()</em> produces <em>greatest common divisor</em> of two integers. <span  class="math">\(e\)</span>, relatively prime to <span  class="math">\(\phi(n)\)</span>, is generated by this function:</p>
-
+<p>There are of course other ways to perform perfect prime test. <a href="http://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">Miller-Rabin randomized primality test</a>, for example, overcomes the &ldquo;fake prime&rdquo; problem that we have in the method above. Again to keep this note short we simply use the Modular Exponentiation method.</p>
+<p>With a method for primality test, in the code above a random number is picked and tested.<br />
+But how many numbers should we pick until a prime is found? Is there a way to estimate the density of primes given the integer range?<br />
+Yes, by the <strong>Prime number theorem</strong>: $$lim_{x \to \infty} \frac{ \pi(n)}{n \ln n} = 1$$</p>
+<p>the number of primes equal or less than $$n$$ is approximately $$\frac{n}{\ln n}$$</p>
+<p>So before we can find a 1024-bit long prime, we will need to test about $$\ln 2^{1024} \approx 709$$ numbers, and if we skip checking the evens, there are only 354 candidates to test.</p>
+<p>Back to our little simple case, we will get a prime, oh, a pseudo-prime, after trying about $$\frac{\ln 2^{9}}{2} \approx 3$$ times, not bad ha?</p>
+<p>After getting the required primes, two functions, <em>gcd()</em> and <em>Extended_Euclid()</em>, are used in <em>setRSAKeys()</em> to get $$e$$ and $$d$$.</p>
+<p>The functions <em>gcd()</em> produces <em>greatest common divisor</em> of two integers. $$e$$, relatively prime to $$\phi(n)$$, is generated by this function:</p>
 <p><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1697,37 +1681,27 @@ Yes, by the <strong>Prime number theorem</strong>: <span  class="math">\(lim_{x 
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">   <span class="kt">int</span> <span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
-   <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-         <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
-      <span class="k">else</span>
-         <span class="k">return</span> <span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">);</span>
-   <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">   <span class="kt">int</span> <span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">         <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">else</span>
+</span></span><span class="line"><span class="cl">         <span class="k">return</span> <span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">   <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
-</div>
-<em>I was thinking a simple while loop would be more efficient than the recursion version, but comparisons in C doesn't show any benefit...</em></p>
-
+</div><br />
+<em>I was thinking a simple while loop would be more efficient than the recursion version, but comparisons in C doesn&rsquo;t show any benefit&hellip;</em></p>
 <p><em>After playing with some numbers and I realized that: 1. when a = b, the recursion terminates. 2. if a&gt;b or b&gt;a, the number of recursions is still reasonably small.</em></p>
-
-<p><em>(and as it proves later in the book:(Lamé's theorem)</em></p>
-
-<p><em>for any integer</em> <span  class="math">\(k \geq 1\)</span>, <em>if</em> <span  class="math">\(a > b \geq 1\)</span> <em>and</em> <span  class="math">\(b > F_{k+1}\)</span>,</p>
-
+<p><em>(and as it proves later in the book:(Lamé&rsquo;s theorem)</em></p>
+<p><em>for any integer</em> $$k \geq 1$$, <em>if</em> $$a &gt; b \geq 1$$ <em>and</em> $$b &gt; F_{k+1}$$,</p>
 <p><em>then the call Euclid(a, b) makes fewer than k recursive calls.),</em></p>
-
-<p><em>where</em> <span  class="math">\(F_{k}\)</span> <em>is the Fibonacci numbers.</em></p>
-
-<p><em>Exended_Euclid()</em> are based on the <strong>Euclid's algorithm</strong> and it's extended version:</p>
-
-<p><em>Given the input of</em> <span  class="math">\(a\)</span> <em>and</em> <span  class="math">\(b\)</span>, <em>returns</em> <span  class="math">\(d\)</span>, <span  class="math">\(x\)</span> <em>and</em> <span  class="math">\(y\)</span>, <em>where integers</em> <span  class="math">\(a\)</span>, <span  class="math">\(b\)</span>, <span  class="math">\(d\)</span>, <span  class="math">\(x\)</span>, <em>and</em> <span  class="math">\(y\)</span> <em>satisfy:d = gcd(a, b) = ax+by</em></p>
-
-<p>This function is used here to calculate modular <strong>multiplicative inverses</strong>, <span  class="math">\(d\)</span>.</p>
-
+<p><em>where</em> $$F_{k}$$ <em>is the Fibonacci numbers.</em></p>
+<p><em>Exended_Euclid()</em> are based on the <strong>Euclid&rsquo;s algorithm</strong> and it&rsquo;s extended version:</p>
+<p><em>Given the input of</em> $$a$$ <em>and</em> $$b$$, <em>returns</em> $$d$$, $$x$$ <em>and</em> $$y$$, <em>where integers</em> $$a$$, $$b$$, $$d$$, $$x$$, <em>and</em> $$y$$ <em>satisfy:d = gcd(a, b) = ax+by</em></p>
+<p>This function is used here to calculate modular <strong>multiplicative inverses</strong>, $$d$$.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1753,41 +1727,38 @@ Yes, by the <strong>Prime number theorem</strong>: <span  class="math">\(lim_{x 
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">    <span class="k">typedef</span> <span class="k">struct</span> <span class="nc">euclid_coefficients</span>
-    <span class="p">{</span>
-       <span class="kt">int</span> <span class="n">d</span><span class="p">;</span>
-       <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
-       <span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
-    <span class="p">}</span> <span class="n">euclid_coefficients</span><span class="p">;</span>
-    <span class="n">euclid_coefficients</span> <span class="n">ec</span><span class="p">;</span>
-
-    <span class="n">euclid_coefficients</span> <span class="nf">Extended_Euclid</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
-    <span class="p">{</span>
-       <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-       <span class="p">{</span>
-          <span class="n">ec</span><span class="p">.</span><span class="n">d</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-          <span class="n">ec</span><span class="p">.</span><span class="n">x</span>   <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-          <span class="n">ec</span><span class="p">.</span><span class="n">y</span>   <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-          <span class="k">return</span> <span class="n">ec</span><span class="p">;</span>
-       <span class="p">}</span>
-       <span class="n">euclid_coefficients</span> <span class="n">tmp</span><span class="p">;</span>
-       <span class="n">tmp</span> <span class="o">=</span> <span class="n">Extended_Euclid</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">);</span>
-       <span class="kt">int</span> <span class="n">old_x</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
-       <span class="n">tmp</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
-       <span class="n">tmp</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">old_x</span> <span class="o">-</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="o">*</span><span class="n">tmp</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
-       <span class="k">return</span> <span class="n">tmp</span><span class="p">;</span>
-    <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">    <span class="k">typedef</span> <span class="k">struct</span> <span class="nc">euclid_coefficients</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">d</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="n">euclid_coefficients</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">euclid_coefficients</span> <span class="n">ec</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">euclid_coefficients</span> <span class="nf">Extended_Euclid</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="n">ec</span><span class="p">.</span><span class="n">d</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">ec</span><span class="p">.</span><span class="n">x</span>   <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">ec</span><span class="p">.</span><span class="n">y</span>   <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">ec</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="p">}</span>
+</span></span><span class="line"><span class="cl">       <span class="n">euclid_coefficients</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">tmp</span> <span class="o">=</span> <span class="n">Extended_Euclid</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">old_x</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">tmp</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">tmp</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">old_x</span> <span class="o">-</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="o">*</span><span class="n">tmp</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">       <span class="k">return</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-
 <ul>
 <li>The last step is to use the key to encrypt/decrypt the message:</li>
 </ul>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1826,53 +1797,50 @@ Yes, by the <strong>Prime number theorem</strong>: <span  class="math">\(lim_{x 
 </span><span class="lnt">37
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-cpp" data-lang="cpp">        <span class="kt">long</span> <span class="nf">powerMod</span><span class="p">(</span><span class="kt">long</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span>
-        <span class="p">{</span>
-          <span class="k">if</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="n">n</span><span class="p">)</span>
-          <span class="p">{</span>
-              <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
-          <span class="p">}</span>
-          <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">)</span>
-          <span class="p">{</span>
-              <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">;</span>
-          <span class="p">}</span>
-
-          <span class="kt">long</span> <span class="n">tmp</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-          <span class="k">while</span> <span class="p">(</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="p">)</span>
-          <span class="p">{</span>
-              <span class="n">n</span> <span class="o">-=</span> <span class="mi">2</span><span class="p">;</span>
-              <span class="n">tmp</span> <span class="o">=</span> <span class="p">((</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
-              <span class="n">tmp</span> <span class="o">%=</span> <span class="n">y</span><span class="p">;</span>
-          <span class="p">};</span>
-          <span class="k">if</span> <span class="p">(</span><span class="mi">2</span> <span class="o">==</span> <span class="n">n</span><span class="p">)</span>
-          <span class="p">{</span>
-              <span class="n">tmp</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
-          <span class="p">}</span>
-          <span class="n">tmp</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
-          <span class="n">tmp</span> <span class="o">%=</span> <span class="n">y</span><span class="p">;</span>
-
-          <span class="k">return</span> <span class="n">tmp</span><span class="p">;</span>
-        <span class="p">}</span>
-
-        <span class="kt">void</span> <span class="nf">processMessage</span><span class="p">(</span><span class="kt">long</span><span class="o">*</span> <span class="n">msg</span><span class="p">,</span> <span class="n">key</span> <span class="n">key</span><span class="p">,</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
-
-            <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">len</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="n">msg</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">powerMod</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">key</span><span class="p">.</span><span class="n">_key</span><span class="p">,</span> <span class="n">key</span><span class="p">.</span><span class="n">n</span><span class="p">);</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">        <span class="kt">long</span> <span class="nf">powerMod</span><span class="p">(</span><span class="kt">long</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span>
+</span></span><span class="line"><span class="cl">              <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">}</span>
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span>
+</span></span><span class="line"><span class="cl">              <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="kt">long</span> <span class="n">tmp</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="k">while</span> <span class="p">(</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span>
+</span></span><span class="line"><span class="cl">              <span class="n">n</span> <span class="o">-=</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">              <span class="n">tmp</span> <span class="o">=</span> <span class="p">((</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">              <span class="n">tmp</span> <span class="o">%=</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">};</span>
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="p">(</span><span class="mi">2</span> <span class="o">==</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span>
+</span></span><span class="line"><span class="cl">              <span class="n">tmp</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">}</span>
+</span></span><span class="line"><span class="cl">          <span class="n">tmp</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">tmp</span> <span class="o">%=</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="k">return</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">void</span> <span class="nf">processMessage</span><span class="p">(</span><span class="kt">long</span><span class="o">*</span> <span class="n">msg</span><span class="p">,</span> <span class="n">key</span> <span class="n">key</span><span class="p">,</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">len</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">msg</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">powerMod</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">key</span><span class="p">.</span><span class="n">_key</span><span class="p">,</span> <span class="n">key</span><span class="p">.</span><span class="n">n</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-
-<p>After all, we've built a simple encryption/decryption tool.
-Time to have some fun...</p>
-
+<p>After all, we&rsquo;ve built a simple encryption/decryption tool.<br />
+Time to have some fun&hellip;</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1885,17 +1853,17 @@ Time to have some fun...</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">    ~/EncryptionAndDecryption/&gt; <span class="nb">test</span>
-    <span class="nv">p</span> <span class="o">=</span> 61, <span class="nv">q</span> <span class="o">=</span> <span class="m">881</span>
-    <span class="nv">n</span> <span class="o">=</span> 53741, phi<span class="o">(</span>n<span class="o">)</span> <span class="o">=</span> <span class="m">52800</span>
-    <span class="nv">e</span> <span class="o">=</span> <span class="m">7</span>
-    <span class="nv">d</span> <span class="o">=</span> <span class="m">7543</span>
-    the encrypted message:
-    <span class="o">[</span>~<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[]</span>
-    the decrypted message:
-    <span class="o">[</span>h<span class="o">]</span> <span class="o">[</span>e<span class="o">]</span> <span class="o">[</span>l<span class="o">]</span> <span class="o">[</span>l<span class="o">]</span> <span class="o">[</span>o<span class="o">]</span>
-
-    ~/EncryptionAndDecryption/&gt;</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">    ~/EncryptionAndDecryption/&gt; <span class="nb">test</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">p</span> <span class="o">=</span> 61, <span class="nv">q</span> <span class="o">=</span> <span class="m">881</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">n</span> <span class="o">=</span> 53741, phi<span class="o">(</span>n<span class="o">)</span> <span class="o">=</span> <span class="m">52800</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">e</span> <span class="o">=</span> <span class="m">7</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">d</span> <span class="o">=</span> <span class="m">7543</span>
+</span></span><span class="line"><span class="cl">    the encrypted message:
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>~<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[</span>▒<span class="o">]</span> <span class="o">[]</span>
+</span></span><span class="line"><span class="cl">    the decrypted message:
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>h<span class="o">]</span> <span class="o">[</span>e<span class="o">]</span> <span class="o">[</span>l<span class="o">]</span> <span class="o">[</span>l<span class="o">]</span> <span class="o">[</span>o<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ~/EncryptionAndDecryption/&gt;</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2152,7 +2120,7 @@ Time to have some fun...</p>
 </div>
 
 
-<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2454,7 +2422,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </section>
 
@@ -3265,7 +3233,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2021, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         
