@@ -2,14 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://justinyhuang.github.io/posts/2021-nian-ji/</loc>
-    <lastmod>2022-03-26T10:33:26-06:00</lastmod>
-  </url><url>
     <loc>http://justinyhuang.github.io/posts/</loc>
-    <lastmod>2022-03-26T10:33:26-06:00</lastmod>
+    <lastmod>2022-05-22T12:02:07-06:00</lastmod>
   </url><url>
     <loc>http://justinyhuang.github.io/</loc>
-    <lastmod>2022-03-26T10:33:26-06:00</lastmod>
+    <lastmod>2022-05-22T12:02:07-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -20,6 +17,12 @@
                 hreflang="en"
                 href="http://justinyhuang.github.io/"
                 />
+  </url><url>
+    <loc>http://justinyhuang.github.io/posts/some-learnings-at-the-age-of-40/</loc>
+    <lastmod>2022-05-22T12:02:07-06:00</lastmod>
+  </url><url>
+    <loc>http://justinyhuang.github.io/posts/2021-nian-ji/</loc>
+    <lastmod>2022-03-26T10:33:26-06:00</lastmod>
   </url><url>
     <loc>http://justinyhuang.github.io/posts/zephyr-memory-slab-design/</loc>
     <lastmod>2021-04-13T16:28:54-06:00</lastmod>
