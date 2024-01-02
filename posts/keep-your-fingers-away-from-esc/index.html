@@ -17,7 +17,7 @@
 
 <script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1211,7 +1211,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
-<meta name="generator" content="Hugo 0.99.1" />
+<meta name="generator" content="Hugo 0.121.1">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1550,32 +1550,32 @@ No guarantee you can throw the &ldquo;ESC&rdquo; keys away, but I would say your
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="c">    &#34;map space to @ (shift-2) for easier use the record buffer</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">map</span> <span class="p">&lt;</span><span class="nx">space</span><span class="p">&gt;</span> @<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;jumping among windows, with the arrow keys</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Down</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">j</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Up</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">k</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Left</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">h</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Right</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">l</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34; not to even think about the &lt;ESC&gt; key</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">imap</span> <span class="nx">jj</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;delete a word in insert mode</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">imap</span> <span class="nx">jjd</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span><span class="nx">diwi</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;capitalize the first character of the current word, in Insert mode</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">imap</span> <span class="nx">jjc</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span><span class="nx">b</span><span class="p">~</span><span class="nx">A</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34; Swap ; and :, save the Shift key.</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> ; :<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">nnoremap</span> : ;<span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">
-</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;page down</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">map</span> <span class="p">,</span><span class="nx">j</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">d</span><span class="p">&gt;</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="c">    &#34;page up</span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span>    <span class="nx">map</span> <span class="p">,</span><span class="nx">k</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">u</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="c">    &#34;map space to @ (shift-2) for easier use the record buffer</span>
+</span></span><span class="line"><span class="cl">    <span class="k">map</span> <span class="p">&lt;</span><span class="nx">space</span><span class="p">&gt;</span> @
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;jumping among windows, with the arrow keys</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Down</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">j</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Up</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">k</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Left</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">h</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">Right</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">W</span><span class="p">&gt;</span><span class="nx">l</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34; not to even think about the &lt;ESC&gt; key</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">imap</span> <span class="nx">jj</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;delete a word in insert mode</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">imap</span> <span class="nx">jjd</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span><span class="nx">diwi</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;capitalize the first character of the current word, in Insert mode</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">imap</span> <span class="nx">jjc</span> <span class="p">&lt;</span><span class="nx">ESC</span><span class="p">&gt;</span><span class="nx">b</span><span class="p">~</span><span class="nx">A</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34; Swap ; and :, save the Shift key.</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> ; :
+</span></span><span class="line"><span class="cl">    <span class="nx">nnoremap</span> : ;
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">    &#34;page down</span>
+</span></span><span class="line"><span class="cl">    <span class="k">map</span> <span class="p">,</span><span class="nx">j</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">d</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">    &#34;page up</span>
+</span></span><span class="line"><span class="cl">    <span class="k">map</span> <span class="p">,</span><span class="nx">k</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">u</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -1832,7 +1832,7 @@ No guarantee you can throw the &ldquo;ESC&rdquo; keys away, but I would say your
 </div>
 
 
-<script defer src="/js/swipe.min.9a80962546eb64fd0c9f6a7d90315269f7de73718abfa9663a7a22c47f47578f.js"></script>
+<script defer src="/js/swipe.min.7bbf2dacea5b173fe9aa699f17efbf82aeddd807831946756705aec0fc91567f.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2915,7 +2915,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2023, All Rights Reserved
+                    ©2024, All Rights Reserved
                 
             </p>
         

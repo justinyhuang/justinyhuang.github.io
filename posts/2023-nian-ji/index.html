@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Repeat in Vim – Talk Less Think More</title>
+    <title>2023 年记 – Talk Less Think More</title>
     
 
 
@@ -543,7 +543,7 @@
 
   
     
-    var permalink = JSON.parse("\"http://justinyhuang.github.io/posts/repeat-in-vim/\"");
+    var permalink = JSON.parse("\"http://justinyhuang.github.io/posts/2023-nian-ji/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1198,16 +1198,16 @@
 <meta name="description" content="Talk Less Think More" />
 
 
-<meta name="created" content="2013-08-06T18:48:00&#43;0000">
-<meta name="modified" content="2013-08-06T18:48:00&#43;0000">
-<meta property="article:published_time" content="2013-08-06T18:48:00&#43;0000">
+<meta name="created" content="2023-12-17T16:51:11-0700">
+<meta name="modified" content="2023-12-17T16:51:11-0700">
+<meta property="article:published_time" content="2023-12-17T16:51:11-0700">
 
 <meta name="author" content="Justin">
 
 
 <meta property="og:site_name" content="Talk Less Think More">
-<meta property="og:title" content="Repeat in Vim">
-<meta property="og:url" content="http://justinyhuang.github.io/posts/repeat-in-vim/">
+<meta property="og:title" content="2023 年记">
+<meta property="og:url" content="http://justinyhuang.github.io/posts/2023-nian-ji/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="Talk Less Think More">
 
@@ -1220,7 +1220,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="http://justinyhuang.github.io/posts/repeat-in-vim/">
+<link rel="canonical" href="http://justinyhuang.github.io/posts/2023-nian-ji/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1234,11 +1234,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Repeat in Vim",
-    "datePublished": "2013-08-06T18:48:00Z",
-    "dateModified": "2013-08-06T18:48:00Z",
-    "url" : "http://justinyhuang.github.io/posts/repeat-in-vim/",
-    "description": "\u003cp\u003eThere are many ways to repeat something in Vim. Knowing how and when to repeat would greatly save your time with Vim.\u003c/p\u003e",
+    "headline": "2023 年记",
+    "datePublished": "2023-12-17T16:51:11-07:00",
+    "dateModified": "2023-12-17T16:51:11-07:00",
+    "url" : "http://justinyhuang.github.io/posts/2023-nian-ji/",
+    "description": "\u003cp\u003e2023年年底，已经开始惦记着写年记了。每每到了某个节点就想着年记的时候可以记下来，到终了的时候要记得2023是个好年份。\u003cbr /\u003e 真正开始写又不知道从哪开始了。\u003c/p\u003e",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://justinyhuang.github.io/"
@@ -1484,7 +1484,7 @@
   
   <li  class="is-active" >
     
-      <span>Repeat in Vim</span>
+      <span>2023 年记</span>
     
   </li>
   
@@ -1496,13 +1496,13 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Repeat in Vim</h2>
+    <h2 class="single__title" data-ani="true">2023 年记</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Aug 6, 2013 </time>
+  <time class="single__info" title="Written At">📅&nbsp;Dec 17, 2023 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1516,28 +1516,27 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>There are many ways to repeat something in Vim. Knowing how and when to repeat would greatly save your time with Vim.</p>
-<p><strong>Get Started</strong></p>
-<p>Natively Vim provides some basic methods to repeat:</p>
-<ul>
-<li>the &lsquo;.&rsquo; will repeat the latest operation: if you &lsquo;dd&rsquo; to delete a line, &lsquo;.&rsquo; will continue deleting another</li>
-<li>the &lsquo;p&rsquo; pastes contents copied (or in the Vim language, yanked) before. Combined with the use of <a href="http://vimdoc.sourceforge.net/htmldoc/change.html#registers">registers</a>, one can keep multiple copies of different content and pastes them into other places.</li>
-</ul>
-<p><strong>Be More Powerful</strong></p>
-<p>Besides the basic toys, Vim enables much powerful repeat technique with its record feature, the <a href="http://vimdoc.sourceforge.net/htmldoc/repeat.html#recording">q</a> command allows to repeat a series of Vim operations, which, when nested or with numbers of repeated operations specified, could be extremely efficient. A life changing feature.</p>
-<p>Example:<br />
-When analyzing logs it is sometimes required to remove the time stamps and compare two logs.<br />
-There are many ways to remove time stamps in a log file, using the recording feature is one of them.<br />
-In the example below, I first go into the recording mode, remove the timestamp of the first line, go into the next line, and end recording. The remove-time-stamp operation has been recorded and stored into register &lsquo;q&rsquo;. Because there are still 48 lines to be processed, I simply type &lsquo;48@q&rsquo; to repeat the same operation for 48 times and the whole log is cleaned.</p>
-<p><img src="/galleries/repeat-in-vim-1.gif" alt="repeat in vim 1" /></p>
-<p>Not everyone would think of it but regular expression is another technique that could be used to repeat operations in Vim. And when you used to it, you will give up anything to be able to do regexp in Vim =)<br />
-There are many resources available for using regular expression (Google is your best friend&hellip;), there is even a <a href="vimregex.com">website</a> just for this topic! I think it would not be very interesting for me to &lsquo;repeat&rsquo; here&hellip;</p>
-<p><strong>Make Extra Steps</strong></p>
-<p>Besides the native support provided by Vim, there are many plugins available out there to further improve your efficiency.<br />
-<a href="http://www.vim.org/scripts/script.php?script_id=2154">Marvim</a> being one of them, makes it easier to store your frequently-used-and-complicated operations and even easier to repeat them.</p>
-<p>Marvim allows saving operation macros by name and groups the stored macros by namespace. On the other hand Marvim provides searching the operations by name: especially helpful when you have a lot of operations saved.<br />
-A simple but illustrative example is shown below for those who are interested.</p>
-<p><img src="/galleries/repeat-in-vim-2.gif" alt="repeat in vim 2" /></p>
+      <p>2023年年底，已经开始惦记着写年记了。每每到了某个节点就想着年记的时候可以记下来，到终了的时候要记得2023是个好年份。<br />
+真正开始写又不知道从哪开始了。</p>
+<p>2023确实是个好年份。至少在公司两次腥风血雨的裁员中存活下来。<br />
+和十多年前经历的裁员不一样，如今的流程效率明显高一个等级：全公司美东时间早上9点统一收到邮件通知，Your Role is/is Not<br />
+Affected。然后对于被裁的员工据说就是关闭内部权限，开会走流程。没有人发badge post，不知道是没心情发，还是根本没时间。<br />
+应该是受到了十多年前流行的杀人游戏的启发吧：天黑请闭眼，天亮你死了。对公司而言是高效了，可是对每个员工来说是不是可以再人道一点？</p>
+<p>以活下来为理由我把使用（闲置）了10年的Kindle DX换成了Remarkable2。分辨率没有太大变化，但是各种“现代”的功能确实让电子阅读体验提升了不少。半年读7本书不算多，但是对多年来“没时间”看书的我来说是一个很有意义的转变。<br />
+这个转变也让多年不读书的我真正体会到阅读的魅力：在纯粹的字里行间倾听作者侃侃而谈，是视频音频不能媲美的一种奇妙体验。尤其是从读书到听音频看视频再转回读书，这一感受更加深刻。仅凭这一点，古老的阅读方式（至少在我们这一代）是不会被淘汰的。当然，前提是要读好书。今年有那么几本书是我读不到一半就丢弃了的：食之无味就不值得浪费时间。</p>
+<p>读完的书里有一本很有意思。应该会再读一遍：《The Subtle Art of Not Giving a Fuck》。读得畅快且解答了我很多长期人生的疑惑。2023后半年，甚至之后的我都会因为读了这本书而发生改变。重要的是明白漫漫人生中什么值得你give a fuck， 其他的就不需要give a fuck。多么简单的道理啊，只可惜我前半辈子愣是没明白。希望我下半辈子能活得通透些。</p>
+<p>“彻悟”后的我觉得第一要务是要照顾好自己。自己的健康心情感受都不give a fuck，那还能照顾什么其他的？</p>
+<p>所以身体想去锻炼就去锻炼，想睡懒觉就睡懒觉；所以与别人有话聊就只管聊，没话聊就别费心费力费时间去生掰；无论亲近生疏，如果对方连基本的尊重都没有，那我也没必要去维护什么关系：I will be happy no matter what, with or without you。多年来都为别人而活，第一次体会到活出自我的美妙滋味。<br />
+诸如此类的改变一旦实行了，就只有一个字：爽！身体舒爽了心情愉悦了，其他的事就更加顺畅了。</p>
+<p>为了“身心健康”年底又入手了一部Quest 3。当然也是因为有公司的报销，不然600刀还是有些肉痛的。玩了半年，就只有一个字：爽！<br />
+在此之前VR的体验是大概6年前在HP玩的HTC Vive，那时候还需要连接到PC。现在的Quest已经完全能够独立运行游戏了，分辨率和操作感也要强很多。虽然分辨率还需要再提高（单眼8K的话我觉得就可以替代一般的显示器了）重量也还不理想（还需要往VR眼镜方向靠拢），但是已经满足我大部分沉浸感的需求了。玩乒乓球，看巨幕电影，以及懂的都懂的naughty应用，实在是过足瘾。</p>
+<p>说回到工作，在所谓的卷厂快两年，卷的艺术有不少进步。正所谓what does not kill me makes me stronger。如何与一群人做成一个项目，在以前其实没有考虑太多，也没有必要考虑太多。然而在丛林里要打交道的不仅仅是小白兔的时候，就不得不考虑沟通和推进的策略。其实都是说出来都很浅显的道理，只是各种商都偏低的我貌似必须要learn it the hard way。<br />
+结合今年从阅读中学习到的方法，我觉得明年是会有明显进步的。</p>
+<p>奶奶在平安夜突发脑梗。医生判定几乎没有可能苏醒。我也在年终开始每天守着手机时刻准备回国奔丧帮忙处理老人家的后事。这对于每个选择移民的人来说都是必须经历的关卡和挑战。虽说早有预期，但是在它真正来临的时候，还确是感到深深的无力。<br />
+有太多的选择要考虑，有太多的放弃要面对。人到中年还真是难。</p>
+<p>和组里的Tim聊过之后决定再给健身一次机会，遵循5x5的方法，把小区里的健身房利用起来。不知道是不是心理作用，觉得自己开始fit了起来，只可惜雄性激素缺乏，骨架还偏小，彭于晏就是我的绝对天花板了。</p>
+<p>估计还是有想要记录的偏偏写的时候怎么都想不起来的，也就不再硬挤了。<br />
+2023是个好年份，2024希望更有意思。</p>
     </article>
     
     <script>
@@ -1598,13 +1597,13 @@ A simple but illustrative example is shown below for those who are interested.</
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjustinyhuang.github.io%2fposts%2frepeat-in-vim%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjustinyhuang.github.io%2fposts%2f2023-nian-ji%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Repeat%20in%20Vim&url=http%3a%2f%2fjustinyhuang.github.io%2fposts%2frepeat-in-vim%2f&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=2023%20%e5%b9%b4%e8%ae%b0&url=http%3a%2f%2fjustinyhuang.github.io%2fposts%2f2023-nian-ji%2f&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -1726,21 +1725,14 @@ A simple but illustrative example is shown below for those who are interested.</
 <nav class="pagination-single">
   
     
-      <a href="http://justinyhuang.github.io/posts/minimal-setup-for-remote-access-linux-from-windows-with-x/" class="pagination-single__left">
+      <a href="http://justinyhuang.github.io/posts/2022-nian-ji/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Minimal Setup for Remote Access Linux from Windows with X</div>      
+        <div class="pagination-single__left-title">2022 年记</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="http://justinyhuang.github.io/posts/about-smart-watches/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">About Smart Watches</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2754,7 +2746,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
           
             
-              <a href="http://justinyhuang.github.io/posts/repeat-in-vim/" data-lang="en" class="dropdown-item is-active">English</a>
+              <a href="http://justinyhuang.github.io/posts/2023-nian-ji/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
         

@@ -14,13 +14,32 @@
     <managingEditor>justin.y.huang@live.com (Justin)</managingEditor>
     <webMaster>justin.y.huang@live.com (Justin)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 23:06:01 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2023 16:51:11 -0700</lastBuildDate>
     
         <atom:link href="http://justinyhuang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>2023 年记</title>
+        <link>http://justinyhuang.github.io/posts/2023-nian-ji/</link>
+        <pubDate>Sun, 17 Dec 2023 16:51:11 -0700</pubDate>
+        <author>justin.y.huang@live.com (Justin)</author>
+        <atom:modified>Sun, 17 Dec 2023 16:51:11 -0700</atom:modified>
+        <guid>http://justinyhuang.github.io/posts/2023-nian-ji/</guid>
+        <description>&lt;p&gt;2023年年底，已经开始惦记着写年记了。每每到了某个节点就想着年记的时候可以记下来，到终了的时候要记得2023是个好年份。&lt;br /&gt;
+真正开始写又不知道从哪开始了。&lt;/p&gt;</description>
+        
+        <dc:creator>Justin</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>2022 年记</title>
@@ -291,7 +310,7 @@ This is a new personal project of mine. I build this dummy book with my personal
         <author>justin.y.huang@live.com (Justin)</author>
         <atom:modified>Fri, 29 Apr 2016 22:18:49 +0000</atom:modified>
         <guid>http://justinyhuang.github.io/posts/a-custom-made-bluetooth-mechanical-keyboard/</guid>
-        <description>   </description>
+        <description> </description>
         
         <dc:creator>Justin</dc:creator>
         
